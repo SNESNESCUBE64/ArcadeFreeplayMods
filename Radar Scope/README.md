@@ -1,4 +1,4 @@
-# Space Encounters Freeplay
+# Radar Scope Freeplay
 This is a mod to original C revision of the TRS2 Radar Scope ROMs that adds free play to the game. 
 
 ## Patch information
