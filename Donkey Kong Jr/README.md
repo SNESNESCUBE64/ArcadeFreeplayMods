@@ -1,4 +1,4 @@
-# Radar Scope Freeplay
+# Donkey Kong Jr Freeplay
 This is a mod to original F-2 revision of the Donkey Kong Jr ROMs that adds free play to the game. 
 
 ## Patch information
