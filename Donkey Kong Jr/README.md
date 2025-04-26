@@ -7,7 +7,7 @@ One patch file is provided for the *dkongjr* ROM set as found in MAME. It has be
 
 | **Patched ROM Name** | **Size** | **CRC-32 Checksum** | **IC Location** |
 |----------------------|----------|---------------------|-----------------|
-| djr1-c_5b_f-2.5b     |    8k    |       3F78E0D0      |        5B       |
+| djr1-c_5b_f-2.5b     |    8k    |       5E87E16F      |        5B       |
 
 ## Modification Documentation
 To Do
