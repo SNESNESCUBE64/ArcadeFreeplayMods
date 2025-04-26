@@ -4,7 +4,7 @@ Patches and documentation for arcade freeplay roms
 ## Patch Statuses
 |   **Game Name**  | **MAME Tested** | **Machine Tested** |
 |:----------------:|:---------------:|:------------------:|
-| Donkey Kong      | Working         | Untested           |
+| Donkey Kong      | Working         | Working            |
 | Donkey Kong Jr   | Working         | Working            |
 | Head On N        | N/A             | N/A                |
 | Heli Fire        | Working         | Working            |
