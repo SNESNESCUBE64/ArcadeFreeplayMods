@@ -8,5 +8,8 @@ Patches and documentation for arcade freeplay roms
 | Donkey Kong Jr   | Working         | Working            |
 | Head On N        | N/A             | N/A                |
 | Heli Fire        | Working         | Working            |
-| Radar Scope      | Working         | Untested           |
+| Radar Scope      | Working         | Working¹           |
 | Space Encounters | Working         | Working            |
+
+
+1. Radar Scope was tested working on real hardware with Revision D ROMs.
