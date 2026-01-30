@@ -8,8 +8,10 @@ Patches and documentation for arcade freeplay roms
 | Donkey Kong Jr   | Working         | Working            |
 | Head On N        | N/A             | N/A                |
 | Heli Fire        | Working         | Working            |
-| Radar Scope      | Working         | Working¹           |
+| Popeye           | Working         | Working¹           |
+| Radar Scope      | Working         | Working²           |
 | Space Encounters | Working         | Working            |
 
 
-1. Radar Scope was tested working on real hardware with Revision D ROMs.
+1. Popeye was tested on real hardware on a board that did not come with a populated security chip. Some boards have this chip and the mod will likely not work with this.
+2. Radar Scope was tested working on real hardware with Revision D ROMs.
