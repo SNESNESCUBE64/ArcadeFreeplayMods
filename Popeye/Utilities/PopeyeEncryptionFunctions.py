@@ -16,7 +16,7 @@ BUFFER_SIZE = 0x2000
 # TPP hardware obfuscated the address lines so they need to be "unencrypted" in order to made unencrypted ROMs.
 # This was accomplished by changing the address bit order and then XOR by a MASK, for this case "ROM_MASK".
 # bitorder = (15, 14, 13, 12, 11, 10, 8, 7, 6, 3, 9, 5, 4, 2, 1, 0) ^ 0x3f
-# data can be re-encrypted by doing this operatiuons backwards.
+# data can be re-encrypted by doing this operations backwards.
 def decryptAddress(oldAddress):
     newAddress = 0xFFFF
     newAddress = oldAddress & 0xFC07 #these bits are unchanged
@@ -45,7 +45,7 @@ def encryptAddress(oldAddress):
 
 # TPP hardware also "encrypted" ROM data by shifting bits around.
 # bitorder = (3, 4, 2, 5, 1, 6, 0, 7)
-# data can be re-encrypted by doing this operatiuons backwards.
+# data can be re-encrypted by doing this operations backwards.
 def decryptROMData(data):
     newData = 0xff
     
