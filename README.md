@@ -10,7 +10,7 @@ Patches and documentation for arcade freeplay roms
 | Heli Fire        | Working         | Working            |
 | Popeye           | Working         | Working¹           |
 | Radar Scope      | Working         | Working²           |
-| Space Demon      | Working         | Untested           |
+| Space Demon      | Working         | Working            |
 | Space Encounters | Working         | Working            |
 
 
