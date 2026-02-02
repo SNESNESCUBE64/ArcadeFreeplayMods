@@ -16,3 +16,7 @@ Patches and documentation for arcade freeplay roms
 
 1. Popeye was tested on real hardware on a board that did not come with a populated security chip. Some boards have this chip and the mod will likely not work with this.
 2. Radar Scope was tested working on real hardware with Revision D ROMs.
+
+## Known Bugs
+### Popeye
+Febuary 1st 2026: There is a graphics glitch that can happen on a real machine that does not show up in MAME. Sometimes after a gameover in 2p mode, text saying to start a game can appear after a game over. The current theory is that the credit count isn't being cleared soon enough for that to not show up.
