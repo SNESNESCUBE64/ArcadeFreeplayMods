@@ -19,4 +19,4 @@ Patches and documentation for arcade freeplay roms
 
 ## Known Bugs
 ### Popeye
-Febuary 1st 2026: There is a graphics glitch that can happen on a real machine that does not show up in MAME. Sometimes after a gameover in 2p mode, text saying to start a game can appear after a game over. The current theory is that the credit count isn't being cleared soon enough for that to not show up.
+Febuary 1st 2026: There is a graphics glitch that can happen on a real machine that does not show up in MAME. Sometimes after a gameover in 2p mode, text saying to start a game can appear after a game over. It is immediately cleared. It should not effect overall gameplay. The current theory is that the credit count isn't being cleared soon enough for that to not show up.
