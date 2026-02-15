@@ -56,7 +56,7 @@ Many of these routines were added where the "Ikegami" text was located since tha
 
 Many of these routines were re-used from my Radar Scope free play ROM.
 
-#### Routine to print "Free Play" text
+#### Credit/Freeplay Routine
 ```z80asm
 0x3F40   ld a, ($6005)   3A 05 60  //Load the game mode to check if it in attract
 0x3F43   and $02         E6 02     //See if we are in credit screen or game mode
@@ -108,6 +108,7 @@ These were where all the lines of code that were changed inline for it to proper
 - 0x017E  bit 7,a      ->   and $00      //Never trigger the following code
 - 0x017E  [routine]    ->   Call 3F77    //Routine to print free play
 - 0x0782  Values here were changed in order to always print "Push Players Buttons" on high score screen
+
 ### Character Table (Incomplete)
 |  Hex | Character |
 |:----:|:---------:|
