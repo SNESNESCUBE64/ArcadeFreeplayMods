@@ -55,3 +55,5 @@ These are designed for use with the *headonn* ROM set as found in MAME. It is no
 ```
 
 ## Images
+### Cocktail Table Free Play
+![Freeplay](Images/HONFreeplayScreenshotCocktail.png)
