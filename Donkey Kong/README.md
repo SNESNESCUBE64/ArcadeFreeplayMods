@@ -88,17 +88,17 @@ Many of these routines were re-used from my Radar Scope free play ROM.
 
 #### Routine to print "Free Play" text
 ```z80asm
-0x2C40   ld de, $3F8D    11 8D 3F  //Load the "Free Play" string start address
-0x2C43   ld hl, $749F    21 9F 74  //Load the address for printing characters to screen
-0x2C46   ld bc, $0020    01 20 00  //Load the offset
-0x2C49   ld a, (de)      1A        //Load the character to be printed
-0x2C4A   ld (hl), a      77        //Print the character to the screen
-0x2C4B   inc de          13        //Increment the string address pointer
-0x2C4C   add hl, bc      09        //Increment the screen address pointer
-0x2C4D   ld a, (de)      1A        //Load the next character to be printed
-0x2C4E   cp $FF          FE FF     //See if it is the end of the string (0xFF)
-0x2C50   jp nz, $2C4A    C2 4A 2C  //If we still have characters to print, then loop
-0x2C53   ret             C9
+0x3F77   ld de, $3F8D    11 8D 3F  //Load the "Free Play" string start address
+0x3F7A   ld hl, $749F    21 9F 74  //Load the address for printing characters to screen
+0x3F7D   ld bc, $0020    01 20 00  //Load the offset
+0x3F80   ld a, (de)      1A        //Load the character to be printed
+0x3F81   ld (hl), a      77        //Print the character to the screen
+0x3F82   inc de          13        //Increment the string address pointer
+0x3F83   add hl, bc      09        //Increment the screen address pointer
+0x3F84   ld a, (de)      1A        //Load the next character to be printed
+0x3F85   cp $FF          FE FF     //See if it is the end of the string (0xFF)
+0x3F87   jp nz, $2C4A    C2 4A 2C  //If we still have characters to print, then loop
+0x3F8A   ret             C9
 ```
 
 #### Injected Routines
