@@ -106,7 +106,7 @@ These were where all the lines of code that were changed inline for it to proper
 
 - 0x017B  Ld a, $7D00  ->   Call $3F40
 - 0x017E  bit 7,a      ->   and $00      //Never trigger the following code
-- 0x017E  [routine]    ->   Call 3F77    //Routine to print free play
+- 0x061B  [routine]    ->   Call 3F77    //Routine to print free play
 - 0x0782  Values here were changed in order to always print "Push Players Buttons" on high score screen
 
 ### Character Table (Incomplete)
