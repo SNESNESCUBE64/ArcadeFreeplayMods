@@ -7,9 +7,11 @@ Patches and documentation for arcade freeplay roms
 | Donkey Kong      | Working         | Working            |
 | Donkey Kong Jr   | Working         | Working            |
 | Head On N        | Working³        | Working³           |
+| Head On 2 (S.L.) | Working         | Untested           |
 | Heli Fire        | Working         | Working            |
 | Popeye           | Working         | Working¹           |
 | Radar Scope      | Working         | Working²           |
+| Sky Skipper      | Working         | Untested           |
 | Space Demon      | Working         | Working            |
 | Space Encounters | Working         | Working            |
 
