@@ -6,11 +6,11 @@ Patches and documentation for arcade freeplay roms
 |:----------------:|:---------------:|:------------------:|
 | Donkey Kong      | Working         | Working            |
 | Donkey Kong Jr   | Working         | Working            |
-| Head On N        | Working³        | Working³           |
-| Head On 2 (S.L.) | Working         | Untested           |
+| Head On N        | Working³        | Working⁴           |
+| Head On 2 (S.L.) | Working         | Working¹           |
 | Heli Fire        | Working         | Working            |
-| Popeye           | Working         | Working¹           |
-| Radar Scope      | Working         | Working²           |
+| Popeye           | Working         | Working²           |
+| Radar Scope      | Working         | Working³           |
 | Sky Skipper      | Working         | Untested           |
 | Space Demon      | Working         | Working            |
 | Space Encounters | Working         | Working            |
@@ -18,7 +18,8 @@ Patches and documentation for arcade freeplay roms
 
 1. Popeye was tested on real hardware on a board that did not come with a populated security chip. Some boards have this chip and the mod will likely not work with this.
 2. Radar Scope was tested working on real hardware with Revision D ROMs.
-3. I wrote 3 patches for Head On N: Free Play, Upright, and Upright Freeplay. The upright mods have not been checked in yet because of how involved they were. *0However, the cocktail freeplay ROM is tested working.*
+3. Tested working on Nintendo Head On N hardware.
+4. I wrote 3 patches for Head On N: Free Play, Upright, and Upright Freeplay. The upright mods have not been checked in yet because of how involved they were. *However, the cocktail freeplay ROM is tested working.*
 
 ## Known Bugs
 ### Popeye
