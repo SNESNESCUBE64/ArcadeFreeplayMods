@@ -7,10 +7,10 @@ Three patches are provided for the *pulsar* ROM set as found in MAME. It has bee
 
 | **Patched ROM Name** | **Size** | **CRC-32 Checksum** | **IC Location** |
 |----------------------|----------|---------------------|-----------------|
-| 790.u33              |    1k    |       0A6C2E04      |       U31       |
-| 796.u27              |    1k    |       5D6B663A      |       U30       |
-| 803.u3               |    1k    |       4932435F      |       U29       |
-| 805.u1               |    1k    |       9B0D8E1F      |       U28       |
+| 790.u33              |    1k    |       0A6C2E04      |       U33       |
+| 796.u27              |    1k    |       5D6B663A      |       U27       |
+| 803.u3               |    1k    |       4932435F      |       U3        |
+| 805.u1               |    1k    |       9B0D8E1F      |       U1        |
 
 ## Modification Documentation
 ### CPU ROM Addresses
