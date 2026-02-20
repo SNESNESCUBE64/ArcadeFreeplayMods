@@ -10,6 +10,7 @@ Patches and documentation for arcade freeplay roms
 | Head On 2 (S.L.) | Working         | Working¹           |
 | Heli Fire        | Working         | Working            |
 | Popeye           | Working         | Working²           |
+| Pulsar           | Working         | Untested           |
 | Radar Scope      | Working         | Working³           |
 | Sky Skipper      | Working         | Untested           |
 | Space Demon      | Working         | Working            |
