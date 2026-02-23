@@ -1,6 +1,8 @@
 # Mario Bros Freeplay
 This is a mod to original Mario Bros ROMs that moves the option of free play to the dip switches. It replaces the 1/3 option in the coin dip switch settings with free play. This is so that the game can boot to free play mode, eliminating the need to go into settings to enable free play.
 
+*Note: The "Free Play" setting in the service menu will no longer work since the option was moved to the dip switches.*
+
 ## Patch information
 Three patches are provided for the *mario* ROM set as found in MAME. It has been tested for this ROM set only and may not work on other revisions of Mario Bros. The patches are designed to be used with LunarIPS. 
 
