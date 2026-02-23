@@ -15,7 +15,7 @@ This is found on DPSW 1 on the game PCB. It uses switches C and D.
 | **Coin/Credit** | **C** | **D** |
 |----------------:|:-----:|:-----:|
 |             2/1 |   On  |  Off  |
-|             1/1 | _Off_ | _Off_ |
+|             1/1 | *Off* | *Off* |
 |             1/2 |  Off  |   On  |
 |       Free Play |   On  |   On  |
 
