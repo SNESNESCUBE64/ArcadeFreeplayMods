@@ -9,6 +9,7 @@ Patches and documentation for arcade freeplay roms
 | Head On N        | Working³        | Working⁴           |
 | Head On 2 (S.L.) | Working         | Working¹           |
 | Heli Fire        | Working         | Working            |
+| Mario Bros.      | Working         | Untested           |
 | Popeye           | Working         | Working²           |
 | Pulsar           | Working         | Untested           |
 | Radar Scope      | Working         | Working³           |
