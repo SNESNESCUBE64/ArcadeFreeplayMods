@@ -37,7 +37,7 @@ Addr     Instruction     Opcode
 ----------------------------------
 0x0040   ld a, ($7D00)   3A 00 7D     //Read dip switch 2
 0x0043   and $08         E6 08        //Compare only switch L       
-0x0045   jr nz, $5FDA    20 04        //If it isn't the override setting, use what is in memory
+0x0045   jr nz, $004B    20 04        //If it isn't the override setting, use what is in memory
 0x0047   ld a, ($6BF0)   3A F0 6B     //Load the current free play setting
 0x004A   ret             c9
 0x004B   ld a, $01       3E 01        //Load the write value
