@@ -6,6 +6,7 @@ Patches and documentation for arcade freeplay roms
 |:----------------:|:---------------:|:------------------:|
 | Donkey Kong      | Working         | Working            |
 | Donkey Kong Jr   | Working         | Working            |
+| Donkey Kong 3    | Working         | Untested           |
 | Head On N        | Working³        | Working⁴           |
 | Head On 2 (S.L.) | Working         | Working¹           |
 | Heli Fire        | Working         | Working            |
