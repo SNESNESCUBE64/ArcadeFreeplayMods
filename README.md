@@ -14,7 +14,7 @@ Patches and documentation for arcade freeplay roms
 | Popeye           | Working         | Working²           |
 | Pulsar           | Working         | Untested           |
 | Radar Scope      | Working         | Working³           |
-| Sky Skipper      | Working         | Untested           |
+| Sky Skipper      | Working         | Working            |
 | Space Demon      | Working         | Working            |
 | Space Encounters | Working         | Working            |
 
