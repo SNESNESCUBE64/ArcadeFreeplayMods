@@ -4,6 +4,7 @@ Patches and documentation for arcade freeplay roms
 ## Patch Statuses
 |   **Game Name**  | **MAME Tested** | **Machine Tested** |
 |:----------------:|:---------------:|:------------------:|
+| Arm Wrestling    | Working         | Untested           |
 | Donkey Kong      | Working         | Working            |
 | Donkey Kong Jr   | Working         | Working            |
 | Donkey Kong 3    | Working         | Untested           |
