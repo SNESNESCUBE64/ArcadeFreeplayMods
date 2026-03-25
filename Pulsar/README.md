@@ -2,7 +2,7 @@
 This is a mod to original Sega/Gremlin game *Pulsar*. This is currently untested for real machines but is working in MAME.
 
 ## Patch information
-Three patches are provided for the *pulsar* ROM set as found in MAME. It has been tested for this ROM set only and may not work on other revisions of Pulsar. The patches are designed to be used with LunarIPS. 
+Four patch file are provided for the *pulsar* ROM set as found in MAME. It has been tested for this ROM set only and may not work on other revisions of Pulsar. The patches are designed to be used with LunarIPS. 
 
 
 | **Patched ROM Name** | **Size** | **CRC-32 Checksum** | **IC Location** |
