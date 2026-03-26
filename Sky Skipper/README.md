@@ -2,7 +2,7 @@
 This is a mod to the original ROMs for Sky Skipper to add freeplay.
 
 ## Patch information
-One patch file is provided for the *skyskipr* ROM set as found in MAME. It has been tested for this ROM set only and will likely not work on other revisions of Sky Skipper (if there are others). The patches are designed to be used with LunarIPS. 
+Three patch files are provided for the *skyskipr* ROM set as found in MAME. It has been tested for this ROM set only and will likely not work on other revisions of Sky Skipper (if there are others). The patches are designed to be used with LunarIPS. 
 
 
 | **Patched ROM Name** | **Size** | **CRC-32 Checksum** | **IC Location** |
