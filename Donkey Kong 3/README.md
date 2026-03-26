@@ -4,7 +4,7 @@ This is a mod to original Donkey Kong 3 ROMs that moves the option of free play 
 *Note: The "Free Play" setting in the service menu will no longer work when the free play dip switch is set. It overrides the free play setting in memory*
 
 ## Patch information
-Three patches are provided for the *dkong3* ROM set as found in MAME. It has been tested for this ROM set only and may not work on other revisions of Donkey Kong 3. The patches are designed to be used with LunarIPS. 
+One patch file is provided for the *dkong3* ROM set as found in MAME. It has been tested for this ROM set only and may not work on other revisions of Donkey Kong 3. The patches are designed to be used with LunarIPS. 
 
 
 | **Patched ROM Name** | **Size** | **CRC-32 Checksum** | **IC Location** |
