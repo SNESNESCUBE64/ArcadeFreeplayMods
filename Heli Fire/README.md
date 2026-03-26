@@ -2,7 +2,7 @@
 This is a mod to original Heli Fire ROMs that adds free play to the game. 
 
 ## Patch information
-Three patches are provided for the *helifire* ROM set as found in MAME (US Set 1). It has been tested for this ROM set only and may not work on other revisions of Heli Fire. The patches are designed to be used with LunarIPS. 
+Two patch files are provided for the *helifire* ROM set as found in MAME (US Set 1). It has been tested for this ROM set only and may not work on other revisions of Heli Fire. The patches are designed to be used with LunarIPS. 
 
 
 | **Patched ROM Name** | **Size** | **CRC-32 Checksum** | **IC Location** |
