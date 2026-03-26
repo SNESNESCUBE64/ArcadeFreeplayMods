@@ -2,7 +2,7 @@
 This is a mod to original Head On 2 found in Sega Slimline and Nintendo Head On Part 2 machines. 
 
 ## Patch information
-Three patches are provided for the *headon2sl* ROM set as found in MAME. It has been tested for this ROM set only and may not work on other revisions of Head On 2. The patches are designed to be used with LunarIPS. 
+Five patch files are provided for the *headon2sl* ROM set as found in MAME. It has been tested for this ROM set only and may not work on other revisions of Head On 2. The patches are designed to be used with LunarIPS. 
 
 
 | **Patched ROM Name** | **Size** | **CRC-32 Checksum** | **IC Location** |
