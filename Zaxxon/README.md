@@ -59,5 +59,7 @@ The freeplay mod was actually a weird one. The code has a suprising amount of si
 ```
 
 ### Injected Routines
+0x087B: ld a, C100   ->   Call 0x00BB //start routine
+
 ## Images
 To do
