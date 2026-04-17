@@ -1,4 +1,4 @@
-# Space Encounters Freeplay
+# Zaxxon Freeplay
 This is a mod to original Zaxxon Rev D ROMs that adds free play to the game. 
 
 NOTE: This is still in progress. This patch is not finalized.
@@ -9,12 +9,10 @@ One patch are provided for the *zaxxon* ROM set as found in MAME. It has been te
 
 | **Patched ROM Name** | **Size** | **CRC-32 Checksum** | **IC Location** |
 |----------------------|----------|---------------------|-----------------|
-| zaxxon_rom3d.u27     |    8k    |       27EAAD8D      |        U27      |
+| zaxxon_rom3d.u27     |    8k    |       0767F96F      |        U27      |
 
 ## To do list
 - Rewrite coin routine to jump to game start if applicable.
-- Fix self test checksums
-    - Might not fix this, if it involves writing code in another ROM it might not be worth it considering the user can just put the old ROM back in.
 - Finish documentation
 
 ## Modification Documentation
