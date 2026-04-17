@@ -1,7 +1,13 @@
-# ArcadeFreeplayMods
-Patches and documentation for arcade freeplay roms
+# Arcade Freeplay Mods
+Patches and documentation for arcade freeplay roms. These mods are intended for original hardware/games that did not originally have freeplay. In the modern day, many of these old arcade machines are in a home environment or in a freeplay location where coins are not required. Many people resort to drilling holes in the cabinet or modifying the cabinet. The goal of this repository is to provide software-based solutions so the physical cabinet does not have to be modified.
 
 ## Patch Statuses
+Games can have one of four statuses:
+- In Progress: mod is still being developed, it is expected to change.
+- Not Working: mod is not working in one aspect. For example, it can be working in MAME but not work on real hardware for one reason or another.
+- Working: mod is complete and is working in the appropriate platform.
+- Untested: mod has not been tested on the appropriate platform, the mod is complete and tested is required.
+  
 |   **Game Name**  | **MAME Tested** | **Machine Tested** |
 |:----------------:|:---------------:|:------------------:|
 | Arm Wrestling    | Working         | Working            |
@@ -25,8 +31,6 @@ Patches and documentation for arcade freeplay roms
 2. Popeye was tested on real hardware on a board that did not come with a populated security chip. Some boards have this chip and the mod will likely not work with this.
 3. Radar Scope was tested working on real hardware with Revision D ROMs.
 4. I wrote 3 patches for Head On N: Free Play, Upright, and Upright Freeplay. The upright mods have not been checked in yet because of how involved they were. *However, the cocktail freeplay ROM is tested working.*
-
-Zaxxon is not a completed free play mod. It does work but it doesn't say that it is free play. Expect it to be updated.
 
 ## Known Bugs
 ### Popeye
