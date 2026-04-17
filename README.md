@@ -18,12 +18,15 @@ Patches and documentation for arcade freeplay roms
 | Sky Skipper      | Working         | Working            |
 | Space Demon      | Working         | Working            |
 | Space Encounters | Working         | Working            |
+| Zaxxon           | In Progress     | In Progress        |
 
 
 1. Tested working on Nintendo Head On N hardware.
 2. Popeye was tested on real hardware on a board that did not come with a populated security chip. Some boards have this chip and the mod will likely not work with this.
 3. Radar Scope was tested working on real hardware with Revision D ROMs.
 4. I wrote 3 patches for Head On N: Free Play, Upright, and Upright Freeplay. The upright mods have not been checked in yet because of how involved they were. *However, the cocktail freeplay ROM is tested working.*
+
+Zaxxon is not a completed free play mod. It does work but it doesn't say that it is free play. Expect it to be updated.
 
 ## Known Bugs
 ### Popeye
