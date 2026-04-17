@@ -12,8 +12,10 @@ One patch are provided for the *zaxxon* ROM set as found in MAME. It has been te
 | zaxxon_rom3d.u27     |    8k    |       27EAAD8D      |        U27      |
 
 ## To do list
-- replace "Insert Coin" phrase with "Push ..."
-- rewrite coin routine to jump to game start if applicable.
+- Rewrite coin routine to jump to game start if applicable.
+- Fix self test checksums
+    - Might not fix this, if it involves writing code in another ROM it might not be worth it considering the user can just put the old ROM back in.
+- Finish documentation
 
 ## Modification Documentation
 The freeplay mod was actually a weird one. The code has a suprising amount of similarities to Donkey Kong. For example, its game mode variable is exactly the same as DK. I want to investigate it a bit further. This documentation is unfinished.
