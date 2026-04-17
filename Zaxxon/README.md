@@ -9,15 +9,14 @@ One patch are provided for the *zaxxon* ROM set as found in MAME. It has been te
 
 | **Patched ROM Name** | **Size** | **CRC-32 Checksum** | **IC Location** |
 |----------------------|----------|---------------------|-----------------|
-| zaxxon_rom3d.u27     |    8k    |       7534BE56      |        U27      |
+| zaxxon_rom3d.u27     |    8k    |       27EAAD8D      |        U27      |
 
 ## To do list
-- replace "Credit 00" with "Free Play"
 - replace "Insert Coin" phrase with "Push ..."
 - rewrite coin routine to jump to game start if applicable.
 
 ## Modification Documentation
-The freeplay mod was actually a weird one. The code has a suprising amount of similarities to Donkey Kong. For example, its game mode variable is exactly the same as DK. I want to investigate it a bit further.
+The freeplay mod was actually a weird one. The code has a suprising amount of similarities to Donkey Kong. For example, its game mode variable is exactly the same as DK. I want to investigate it a bit further. This documentation is unfinished.
 
 ### Noteworthy Places in Memory
 - 6005: Game Mode
@@ -62,4 +61,4 @@ The freeplay mod was actually a weird one. The code has a suprising amount of si
 0x087B: ld a, C100   ->   Call 0x00BB //start routine
 
 ## Images
-To do
+![Zaxxon Free Play](Images/ZaxxonFP.png)
