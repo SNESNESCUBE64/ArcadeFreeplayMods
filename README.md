@@ -24,7 +24,7 @@ Games can have one of four statuses:
 | Sky Skipper      | Working         | Working            |
 | Space Demon      | Working         | Working            |
 | Space Encounters | Working         | Working            |
-| Zaxxon           | In Progress     | In Progress        |
+| Zaxxon           | Working         | Working            |
 
 
 1. Tested working on Nintendo Head On N hardware.
