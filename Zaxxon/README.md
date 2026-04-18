@@ -1,8 +1,6 @@
 # Zaxxon Freeplay
 This is a mod to original Zaxxon Rev D ROMs that adds free play to the game. 
 
-NOTE: This is still in progress. This patch is not finalized.
-
 ## Patch information
 One patch are provided for the *zaxxon* ROM set as found in MAME. It has been tested for this ROM set only and may not work on other revisions of Zaxxon. The patches are designed to be used with LunarIPS. 
 
@@ -10,10 +8,6 @@ One patch are provided for the *zaxxon* ROM set as found in MAME. It has been te
 | **Patched ROM Name** | **Size** | **CRC-32 Checksum** | **IC Location** |
 |----------------------|----------|---------------------|-----------------|
 | zaxxon_rom3d.u27     |    8k    |       0767F96F      |        U27      |
-
-## To do list
-- Rewrite coin routine to jump to game start if applicable.
-- Finish documentation
 
 ## Modification Documentation
 The freeplay mod was actually a weird one. The code has a suprising amount of similarities to Donkey Kong. For example, its game mode variable is exactly the same as DK. I want to investigate it a bit further. This documentation is unfinished.
