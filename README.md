@@ -14,6 +14,7 @@ Games can have one of four statuses:
 | Donkey Kong      | Working         | Working            |
 | Donkey Kong Jr   | Working         | Working            |
 | Donkey Kong 3    | Working         | Untested           |
+| Frogger          | In Progress     | In Progress        |
 | Head On N        | Working         | Working⁴           |
 | Head On 2 (S.L.) | Working         | Working¹           |
 | Heli Fire        | Working         | Working            |
