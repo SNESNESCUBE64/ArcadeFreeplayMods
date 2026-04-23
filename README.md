@@ -13,8 +13,8 @@ Games can have one of four statuses:
 | Arm Wrestling    | Working         | Working            |
 | Donkey Kong      | Working         | Working            |
 | Donkey Kong Jr   | Working         | Working            |
-| Donkey Kong 3    | Working         | Untested           |
-| Frogger          | In Progress     | In Progress        |
+| Donkey Kong 3    | Working         | Working            |
+| Frogger          | Working         | Untested           |
 | Head On N        | Working         | Working⁴           |
 | Head On 2 (S.L.) | Working         | Working¹           |
 | Heli Fire        | Working         | Working            |

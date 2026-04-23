@@ -1,7 +1,5 @@
 # Frogger Freeplay
-This is a mod to original Konami Frogger ROM set.
-
-This is an incomplete free play mod, expect it to change. It works as a free play mod in mame but it does not say free play anywhere. 
+This is a mod to original Konami Frogger ROM set. 
 
 ## Patch information
 Two patches are provided for the *Frogger* ROM set as found in MAME. It has been tested for this ROM set only and may not work on other revisions of Frogger. The patches are designed to be used with LunarIPS. 
@@ -9,11 +7,12 @@ Two patches are provided for the *Frogger* ROM set as found in MAME. It has been
 
 | **Patched ROM Name** | **Size** | **CRC-32 Checksum** | **IC Location** |
 |----------------------|----------|---------------------|-----------------|
-| frsm3.7              |    4k    |       0ECA3ADB      |        26       |
-| frogger.26           |    4k    |       36163F07      |        7        |
+| frsm3.7              |    4k    |       7221DE54      |       IC7       |
+| frogger.26           |    4k    |       08458DAE      |       IC5       |
 
 ## Modification Documentation
 To Do
 
 ## Images
-To do
+![Frogger FP1](Images/FroggerFP1.png)
+![Frogger FP2](Images/FroggerFP2.png)
