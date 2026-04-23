@@ -14,7 +14,7 @@ Games can have one of four statuses:
 | Donkey Kong      | Working         | Working            |
 | Donkey Kong Jr   | Working         | Working            |
 | Donkey Kong 3    | Working         | Working            |
-| Frogger          | Working         | Untested           |
+| Frogger          | Not Working     | Untested           |
 | Head On N        | Working         | Working⁴           |
 | Head On 2 (S.L.) | Working         | Working¹           |
 | Heli Fire        | Working         | Working            |
@@ -38,3 +38,6 @@ Games can have one of four statuses:
 **Febuary 1st 2026**: There is a graphics glitch that can happen on a real machine that does not show up in MAME. Sometimes after a gameover in 2p mode, text saying to start a game can appear after a game over. It is immediately cleared. It should not effect overall gameplay. The current theory is that the credit count isn't being cleared soon enough for that to not show up.
 
 **Febuary 9th 2026**: Upon re-examining my code for auto-starting the game, I realize that it starts in an "uncontrolled way". It jumps into the middle of an instruction, the opcodes ends up being a jump to where it might need to go. It works but should probably be fixed.
+
+### Frogger
+**April 22nd 2026**: If you start a game during the demo, the death block location of the vehicles can be wrong.
