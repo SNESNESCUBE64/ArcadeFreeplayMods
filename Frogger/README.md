@@ -2,34 +2,29 @@
 This is a mod to original Konami and Sega Set 1 Frogger ROM set. 
 
 ## Patch information
-Two patches are provided for the *frogger* or *froggers1* ROM set as found in MAME. It has been tested for this ROM set only and may not work on other revisions of Frogger. The patches are designed to be used with LunarIPS. 
+Three sets of two patches are provided for the *frogger*, *froggers1*, *froggermc* ROM sets as found in MAME. It has been tested for this ROM set only and may not work on other revisions of Frogger. The patches are designed to be used with LunarIPS. 
 
 ### Konami Frogger (frogger.zip)
 | **Patched ROM Name** | **Size** | **CRC-32 Checksum** | **IC Location** |
 |----------------------|----------|---------------------|-----------------|
-| frogger.26           |    4k    |       08458DAE      |       IC5       |
-| frsm3.7              |    4k    |       7221DE54      |       IC7       |
+| frogger.26           |    4k    |       4782EBBB      |       IC5       |
+| frsm3.7              |    4k    |       8372F356      |       IC7       |
 
 ### Sega Frogger Set 1 (froggers1.zip)
-This one is a bit different with names, use the following translation:
-| **File Name** | **Patch File** |
-|---------------|----------------|
-| epr-26.ic5    | frogger.26.ips |
-| epr-34.ic7    | frsm3.7.ips    |
-
-Alternatively, MAME had an alternative naming convention at some point:
-| **File Name** | **Patch File** |
-|---------------|----------------|
-| frogger.26    | frogger.26.ips |
-| frogger.34    | frsm3.7.ips    |
-
-
 | **Patched ROM Name** | **Size** | **CRC-32 Checksum** | **IC Location** |
 |----------------------|----------|---------------------|-----------------|
-| epr-26.ic5           |    4k    |       08458DAE      |       IC5       |
-| epr-34.ic7           |    4k    |       33059F1F      |       IC7       |
+| epr-26.ic5           |    4k    |       4782EBBB      |       IC5       |
+| epr-34.ic7           |    4k    |       C256B21D      |       IC7       |
+
+### Sega Frogger Moon Cresta Hardware (froggermc.zip)
+| **Patched ROM Name** | **Size** | **CRC-32 Checksum** | **IC Location** |
+|----------------------|----------|---------------------|-----------------|
+| epr-1031.15          |    4k    |       8B67FE37      |       IC15      |
+| epr-1033.33          |    4k    |       BB134551      |       IC33      |
+
 
 ## Modification Documentation (frogger and froggers1)
+Note, this section is out of date. Some of these routines have been rewritten
 ### Noteworthy Places in Memory
 - 0x83E1: Credit Count
 - 0x83E2: Credit Switch Held

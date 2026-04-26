@@ -14,7 +14,7 @@ Games can have one of four statuses:
 | Donkey Kong      | Working         | Working            |
 | Donkey Kong Jr   | Working         | Working            |
 | Donkey Kong 3    | Working         | Working            |
-| Frogger          | Not Working     | Untested           |
+| Frogger          | Working         | Working⁵           |
 | Head On N        | Working         | Working⁴           |
 | Head On 2 (S.L.) | Working         | Working¹           |
 | Heli Fire        | Working         | Working            |
@@ -32,6 +32,7 @@ Games can have one of four statuses:
 2. Popeye was tested on real hardware on a board that did not come with a populated security chip. Some boards have this chip and the mod will likely not work with this.
 3. Radar Scope was tested working on real hardware with Revision D ROMs.
 4. I wrote 3 patches for Head On N: Free Play, Upright, and Upright Freeplay. The upright mods have not been checked in yet because of how involved they were. *However, the cocktail freeplay ROM is tested working.*
+5. Frogger freeplay was tested using the moon cresta version on real hardware.
 
 ## Known Bugs
 ### Popeye
@@ -40,4 +41,5 @@ Games can have one of four statuses:
 **Febuary 9th 2026**: Upon re-examining my code for auto-starting the game, I realize that it starts in an "uncontrolled way". It jumps into the middle of an instruction, the opcodes ends up being a jump to where it might need to go. It works but should probably be fixed.
 
 ### Frogger
-**April 22nd 2026**: If you start a game during the demo, the death block location of the vehicles can be wrong.
+~~**April 22nd 2026**: If you start a game during the demo, the death block location of the vehicles can be wrong.~~
+- Resolved by ensuring the correct spots in memory were cleared. When starting from demo mode, the game does not automatically clear the game RAM when starting the way I did, so extra code had to be added to clear out the correct spaces in memory. Patches have been updated to resolve this issue on 25 April 2026.
