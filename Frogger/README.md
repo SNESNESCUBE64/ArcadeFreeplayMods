@@ -1,8 +1,8 @@
 # Frogger Freeplay
-This is a mod to original Konami and Sega Set 1 Frogger ROM set. 
+This is a mod to original Konami Sega Set 1, Sega Set 2, and Sega Moon Cresta Hardware Frogger ROM sets. 
 
 ## Patch information
-Three sets of two patches are provided for the *frogger*, *froggers1*, *froggermc* ROM sets as found in MAME. It has been tested for this ROM set only and may not work on other revisions of Frogger. The patches are designed to be used with LunarIPS. 
+Four sets are provided for the *frogger*, *froggers1*, *froggers2*, *froggermc* ROM sets as found in MAME. It has been tested for this ROM set only and may not work on other revisions of Frogger. The patches are designed to be used with LunarIPS. 
 
 ### Konami Frogger (frogger.zip)
 | **Patched ROM Name** | **Size** | **CRC-32 Checksum** | **IC Location** |
@@ -15,6 +15,13 @@ Three sets of two patches are provided for the *frogger*, *froggers1*, *froggerm
 |----------------------|----------|---------------------|-----------------|
 | epr-26.ic5           |    4k    |       4782EBBB      |       IC5       |
 | epr-34.ic7           |    4k    |       C256B21D      |       IC7       |
+
+### Sega Frogger Set 2 (froggers2.zip)
+| **Patched ROM Name** | **Size** | **CRC-32 Checksum** | **IC Location** |
+|----------------------|----------|---------------------|-----------------|
+| epr-1012.ic5         |    4k    |       9C6B97A9      |       IC5       |
+| epr-1013a.ic6        |    4k    |       F3AF8D30      |       IC6       |
+| epr-1015.ic8         |    4k    |       D2A9D453      |       IC8       |
 
 ### Sega Frogger Moon Cresta Hardware (froggermc.zip)
 | **Patched ROM Name** | **Size** | **CRC-32 Checksum** | **IC Location** |
