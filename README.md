@@ -32,7 +32,7 @@ Games can have one of four statuses:
 2. Popeye was tested on real hardware on a board that did not come with a populated security chip. Some boards have this chip and the mod will likely not work with this.
 3. Radar Scope was tested working on real hardware with Revision D ROMs.
 4. I wrote 3 patches for Head On N: Free Play, Upright, and Upright Freeplay. The upright mods have not been checked in yet because of how involved they were. *However, the cocktail freeplay ROM is tested working.*
-5. Frogger freeplay was tested using the moon cresta version on real hardware.
+5. Tested working on Moon Cresta Hardware version and Sega Hardware running Sega Set 2
 
 ## Known Bugs
 ### Popeye
