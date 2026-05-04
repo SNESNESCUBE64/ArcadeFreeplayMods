@@ -21,6 +21,7 @@ Games can have one of four statuses:
 | Mario Bros.      | Working         | Working            |
 | Popeye           | Working         | Working²           |
 | Pulsar           | Working         | Untested           |
+| Punch-Out!!      | Working         | Working            |
 | Radar Scope      | Working         | Working³           |
 | Sky Skipper      | Working         | Working            |
 | Space Demon      | Working         | Working            |
