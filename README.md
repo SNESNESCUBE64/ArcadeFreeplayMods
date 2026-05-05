@@ -8,25 +8,26 @@ Games can have one of four statuses:
 - Working: mod is complete and is working in the appropriate platform.
 - Untested: mod has not been tested on the appropriate platform, the mod is complete and tested is required.
   
-|   **Game Name**  | **MAME Tested** | **Machine Tested** |
-|:----------------:|:---------------:|:------------------:|
-| Arm Wrestling    | Working         | Working            |
-| Donkey Kong      | Working         | Working            |
-| Donkey Kong Jr   | Working         | Working            |
-| Donkey Kong 3    | Working         | Working            |
-| Frogger          | Working         | Working⁵           |
-| Head On N        | Working         | Working⁴           |
-| Head On 2 (S.L.) | Working         | Working¹           |
-| Heli Fire        | Working         | Working            |
-| Mario Bros.      | Working         | Working            |
-| Popeye           | Working         | Working²           |
-| Pulsar           | Working         | Untested           |
-| Punch-Out!!      | Working         | Working            |
-| Radar Scope      | Working         | Working³           |
-| Sky Skipper      | Working         | Working            |
-| Space Demon      | Working         | Working            |
-| Space Encounters | Working         | Working            |
-| Zaxxon           | Working         | Working            |
+|   **Game Name**   | **MAME Tested** | **Machine Tested** |
+|:-----------------:|:---------------:|:------------------:|
+| Arm Wrestling     | Working         | Working            |
+| Donkey Kong       | Working         | Working            |
+| Donkey Kong Jr    | Working         | Working            |
+| Donkey Kong 3     | Working         | Working            |
+| Frogger           | Working         | Working⁵           |
+| Head On N         | Working         | Working⁴           |
+| Head On 2 (S.L.)  | Working         | Working¹           |
+| Heli Fire         | Working         | Working            |
+| Mario Bros.       | Working         | Working            |
+| Popeye            | Working         | Working²           |
+| Pulsar            | Working         | Untested           |
+| Punch-Out!!       | Working         | Working            |
+| Radar Scope       | Working         | Working³           |
+| Sky Skipper       | Working         | Working            |
+| Space Demon       | Working         | Working            |
+| Space Encounters  | Working         | Working            |
+| Super Punch-Out!! | Working         | Untested           |
+| Zaxxon            | Working         | Working            |
 
 
 1. Tested working on Nintendo Head On N hardware.
