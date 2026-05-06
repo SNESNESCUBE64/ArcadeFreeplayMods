@@ -26,7 +26,7 @@ Games can have one of four statuses:
 | Sky Skipper       | Working         | Working            |
 | Space Demon       | Working         | Working            |
 | Space Encounters  | Working         | Working            |
-| Super Punch-Out!! | Working         | Untested           |
+| Super Punch-Out!! | Working         | Working            |
 | Zaxxon            | Working         | Working            |
 
 
