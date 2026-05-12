@@ -1,5 +1,5 @@
 # Turbo Freeplay
-This is a mod to original Sega Turbo ROMs that adds free play to the game. 
+This is a mod to original unencrypted Sega Turbo ROM set that adds free play to the game. This will not work if you have an encrypted CPU set up.
 
 This patch was originally written by Steven McLeod. Updates were added to correct the checksum for test mode and have it auto start so that the start button only has to be pressed once.
 
