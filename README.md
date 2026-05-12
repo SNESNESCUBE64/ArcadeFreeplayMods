@@ -27,6 +27,7 @@ Games can have one of four statuses:
 | Space Demon       | Working         | Working            |
 | Space Encounters  | Working         | Working            |
 | Super Punch-Out!! | Working         | Working            |
+| Turbo             | Working         | Untested           |
 | Zaxxon            | Working         | Working            |
 
 
