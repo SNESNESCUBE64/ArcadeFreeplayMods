@@ -1,4 +1,4 @@
-# Space Demon Freeplay
+# Space Firebird Freeplay
 This is a mod for original Nintendo Space Firebird ROMs that adds free play to the game.
 
 Special thanks to **philmurr** on KLOV for assistance in bypassing the nasty ROM check that occurs on startup. This check makes the game unplayable if it detects any changes as a form of protection. I also used a slightly modified version of his code from his Space Firebird mod to print "Free Play" over the credit count.
