@@ -13,6 +13,13 @@ Three patch files are provided for the *spacefb* ROM set as found in MAME. It ha
 | tst-c-u.5f           |    2k    |       D9B45D61      |        5F       |
 | tst-c-u.5n           |    2k    |       E3270E22      |        5N       |
 
+### spacefbe
+| **Patched ROM Name** | **Size** | **CRC-32 Checksum** | **IC Location** |
+|----------------------|----------|---------------------|-----------------|
+| tst-c-e.5e           |    2k    |       1CE23A4D      |        5E       |
+| tst-c-e.5f           |    2k    |       2ED46A89      |        5F       |
+| tst-c-e.5n           |    2k    |       5372557B      |        5N       |
+
 ### spacefbe2
 | **Patched ROM Name** | **Size** | **CRC-32 Checksum** | **IC Location** |
 |----------------------|----------|---------------------|-----------------|
