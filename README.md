@@ -16,7 +16,7 @@ Games can have one of four statuses:
 | Donkey Kong 3             | Working         | Working            |
 | Frogger                   | Working         | Working⁵           |
 | Head On N                 | Working         | Working⁴           |
-| Head On 2 (S.L.)          | Working         | Working¹           |
+| Head On 2 (Sega Slimline) | Working         | Working¹           |
 | Heli Fire                 | Working         | Working            |
 | Mario Bros.               | Working         | Working            |
 | Popeye                    | Working         | Working²           |
