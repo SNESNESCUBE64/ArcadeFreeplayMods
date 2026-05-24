@@ -6,11 +6,19 @@ Special thanks to **philmurr** on KLOV for assistance in bypassing the nasty ROM
 ## Patch information
 Three patch files are provided for the *spacefb* ROM set as found in MAME. It has been tested for this ROM set only and may not work on other revisions of Space Firebird.
 
+### spacefb
 | **Patched ROM Name** | **Size** | **CRC-32 Checksum** | **IC Location** |
 |----------------------|----------|---------------------|-----------------|
 | tst-c-u.5e           |    2k    |       12FCC868      |        5E       |
 | tst-c-u.5f           |    2k    |       D9B45D61      |        5F       |
 | tst-c-u.5n           |    2k    |       E3270E22      |        5N       |
+
+### spacefbe2
+| **Patched ROM Name** | **Size** | **CRC-32 Checksum** | **IC Location** |
+|----------------------|----------|---------------------|-----------------|
+| 5e.cpu               |    2k    |       467FFC6E      |        5E       |
+| tst-c-e.5f           |    2k    |       2ED46A89      |        5F       |
+| tst-c-e.5n           |    2k    |       5372557B      |        5N       |
 
 ## Modification Documentation
 ### Address Ranges
