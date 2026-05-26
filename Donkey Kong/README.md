@@ -2,7 +2,7 @@
 This is a mod to original US Set 1 (plus hard version) and 2 revisions of the Donkey Kong ROMs that adds free play to the game. 
 
 ## Patch information
-Two patch files are provided for the *dkong*, *dkonghrd*, *dkongo* ROM set as found in MAME. They have been tested for this ROM set only and may not work on other revisions of Donkey Kong. The patches are designed to be used with LunarIPS. 
+Two patch files are provided for the *dkong*,*dkonghrd*, *dkongo*, and *dkongj* ROM sets as found in MAME. They have been tested for this ROM set only and may not work on other revisions of Donkey Kong. The patches are designed to be used with LunarIPS. 
 
 ### US Set 1 - dkong.zip
 | **Patched ROM Name** | **Size** | **CRC-32 Checksum** | **IC Location TKG4/TKG3** |
@@ -20,6 +20,12 @@ Two patch files are provided for the *dkong*, *dkonghrd*, *dkongo* ROM set as fo
 | **Patched ROM Name** | **Size** | **CRC-32 Checksum** | **IC Location TKG4/TKG3** |
 |----------------------|----------|---------------------|---------------------------|
 | tkg3c.5k             |    4k    |       A4EFE07F      |      5A/5K                |
+| c_5f_b.bin           |    4k    |       FD43990D      |      5E/5F                |
+
+### Japan Set 1 - dkongj.zip
+| **Patched ROM Name** | **Size** | **CRC-32 Checksum** | **IC Location TKG4/TKG3** |
+|----------------------|----------|---------------------|---------------------------|
+| c_5k_b.bin           |    4k    |       C89909C3      |      5A/5K                |
 | c_5f_b.bin           |    4k    |       FD43990D      |      5E/5F                |
 
 ## Modification Documentation
