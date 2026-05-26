@@ -1,8 +1,8 @@
 # Donkey Kong Freeplay
-This is a mod to original US Set 1 (plus hard version) and 2 revisions of the Donkey Kong ROMs that adds free play to the game. 
+This is a freeplay mod for several ROM sets for Donkey Kong.
 
 ## Patch information
-Two patch files are provided for the *dkong*,*dkonghrd*, *dkongo*, *dkongj*, and *dkongjo* ROM sets as found in MAME. They have been tested for this ROM set only and may not work on other revisions of Donkey Kong. The patches are designed to be used with LunarIPS. 
+Two patch files are provided for the *dkong*,*dkonghrd*, *dkongo*, *dkongj*, *dkongjo*, and *dkongjo1* ROM sets as found in MAME. They have been tested for this ROM set only and may not work on other revisions of Donkey Kong. The patches are designed to be used with LunarIPS. 
 
 ### US Set 1 - dkong.zip
 | **Patched ROM Name** | **Size** | **CRC-32 Checksum** | **IC Location TKG4/TKG3** |
