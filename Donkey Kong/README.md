@@ -34,6 +34,12 @@ Two patch files are provided for the *dkong*,*dkonghrd*, *dkongo*, *dkongj*, and
 | c_5k_b.bin           |    4k    |       C89909C3      |      5A/5K                |
 | c_5f_b.bin           |    4k    |       FD43990D      |      5E/5F                |
 
+### Japan Set 3 - dkongjo1.zip
+| **Patched ROM Name** | **Size** | **CRC-32 Checksum** | **IC Location TKG4/TKG3** |
+|----------------------|----------|---------------------|---------------------------|
+| 5k.bin               |    4k    |       88B53058      |      5A/5K                |
+| c_5f_b.bin           |    4k    |       FD43990D      |      5E/5F                |
+
 ## Modification Documentation
 ### Noteworthy Places in Memory
 - 6001: Credit Count
