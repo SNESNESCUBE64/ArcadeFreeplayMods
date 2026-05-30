@@ -169,8 +169,10 @@ This was a list of strings of characters used by the game. It was used for print
 
 Strings are stored in the ROM starting at 0x3000. Each string is terminated by the character 0x3F. So one way to have it print "Free Play" is to replace the credit text. What is nice is that the credit string has 4 blank characters at the end. They did this to clear the area on screen for the purpose of printing the credit count. As a result, it can be replaced with the Free Play text with no issues since the routine that prints the credit count has been removed.
 
+```
 Credit String: 0x36C1 - 13 22 15 14 19 24 10 10 10 10 3F
 Replace with: 0x36C1 - 16 22 15 15 10 20 1C 11 29 10 3F
+```
 
 ## Images
 ![Freeplay](Images/DKFreeplayScreenshot.png)
