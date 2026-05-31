@@ -9,6 +9,7 @@ This is a mod for several Donkey Kong Jr ROM sets. These patches are intended to
 | dkongjre    |        Yes        |       Untested       |
 | dkongjrj    |        Yes        |       Untested       |
 | dkongjrb    |        Yes        |       Untested       |
+| dkongjrpb   |        Yes        |       Untested       |
 
 ### US Set F-2 - dkongjr
 | **Patched ROM Name** | **Size** | **CRC-32 Checksum** | **IC Location** |
@@ -29,6 +30,11 @@ This is a mod for several Donkey Kong Jr ROM sets. These patches are intended to
 | **Patched ROM Name** | **Size** | **CRC-32 Checksum** | **IC Location** |
 |----------------------|----------|---------------------|-----------------|
 | dkjr1                |    8k    |       BB96B0CA      |        5B       |
+
+### Bootleg P Kit - dkongjrpb
+| **Patched ROM Name** | **Size** | **CRC-32 Checksum** | **IC Location** |
+|----------------------|----------|---------------------|-----------------|
+| dkjr1-c.5b-p         |    8k    |       552D2CAF      |        5B       |
 
 ## Modification Documentation
 ### Noteworthy Places in Memory
