@@ -15,7 +15,7 @@ This is a mod for several Donkey Kong Jr ROM sets. These patches are intended to
 |----------------------|----------|---------------------|-----------------|
 | djr1-c_5b_f-2.5b     |    8k    |       894A38ED      |        5B       |
 
-### US Set E - dkongjr
+### US Set E - dkongjre
 | **Patched ROM Name** | **Size** | **CRC-32 Checksum** | **IC Location** |
 |----------------------|----------|---------------------|-----------------|
 | djr1-c.5b            |    8k    |       87B831C7      |        5B       |
