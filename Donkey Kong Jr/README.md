@@ -1,13 +1,28 @@
 # Donkey Kong Jr Freeplay
-This is a mod to original F-2 revision of the Donkey Kong Jr ROMs that adds free play to the game. 
+This is a mod for several Donkey Kong Jr ROM sets. These patches are intended to be used with LunarIPS or similar patching utilities.
 
 ## Patch information
-One patch file is provided for the *dkongjr* ROM set as found in MAME. It has been tested for this ROM set only and may not work on other revisions of Donkey Kong Jr. The patches are designed to be used with LunarIPS. 
+### Supported ROM Sets
+| **ROM Set** | **MAME Working?** | **Machine Working?** |
+|-------------|:-----------------:|:--------------------:|
+| dkongjr     |        Yes        |          Yes         |
+| dkongjrj    |        Yes        |       Untested       |
+| dkongjrb    |        Yes        |       Untested       |
 
-
+### US Set F-2 - dkongjr
 | **Patched ROM Name** | **Size** | **CRC-32 Checksum** | **IC Location** |
 |----------------------|----------|---------------------|-----------------|
-| djr1-c_5b_f-2.5b     |    8k    |       06161E17      |        5B       |
+| djr1-c_5b_f-2.5b     |    8k    |       894A38ED      |        5B       |
+
+### Japan Set - dkongjrj
+| **Patched ROM Name** | **Size** | **CRC-32 Checksum** | **IC Location** |
+|----------------------|----------|---------------------|-----------------|
+| c_5ba                |    8k    |       7B8822BF      |        5B       |
+
+### Bootleg - dkongjrb
+| **Patched ROM Name** | **Size** | **CRC-32 Checksum** | **IC Location** |
+|----------------------|----------|---------------------|-----------------|
+| dkjr1                |    8k    |       BB96B0CA      |        5B       |
 
 ## Modification Documentation
 ### Noteworthy Places in Memory
