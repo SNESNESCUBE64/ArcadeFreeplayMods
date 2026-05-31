@@ -7,7 +7,7 @@ One patch file is provided for the *dkongjr* ROM set as found in MAME. It has be
 
 | **Patched ROM Name** | **Size** | **CRC-32 Checksum** | **IC Location** |
 |----------------------|----------|---------------------|-----------------|
-| djr1-c_5b_f-2.5b     |    8k    |       5E87E16F      |        5B       |
+| djr1-c_5b_f-2.5b     |    8k    |       06161E17      |        5B       |
 
 ## Modification Documentation
 ### Noteworthy Places in Memory
@@ -48,49 +48,28 @@ Many of these routines were added where the "Ikegami" text would have been since
 
 Many of these routines were re-used from my Radar Scope free play ROM.
 
-#### Credit/Freeplay Routine
 ```z80asm
-0x3F40   ld a, ($6005)   3A 05 60  //Load the game mode to check if it in attract
-0x3F43   and $02         E6 02     //See if we are in credit screen or game mode
-0x3F45   ret nz          C0        //Return if we are not in attract mode
-0x3F46   ld a, ($7D00)   3A 00 7D  //Read the controls
-0x3F49   ld b, a         47        //Copy the controls into b register for later use
-0x3F4A   and $0C         E6 0C     //See if player 1 or player 2 has been pressed
-0x3F4C   ret z           C8        //If return if neither has been pressed
-0x3F4D   ld hl, $6007    21 81 7D  //Load game controls address   
-0x3F50   ld (hl), $00    36 00     //Enable Game Mode, enables controls and digital sound
-0x3F52   ld hl, $6005    21 05 60  //Load the game mode
-0x3F55   inc (hl)        34        //Set the game mode to credit screen mode
-0x3F56   ld hl, $6080    21 80 60  //Load the start of the analog sounds queue
-0x3F59   ld c, $0F       0E 0F     //Load byte counter
-0x3F5B   ld a, $00       3E 00     //Load clear value
-0x3F5D   ld (hl), a      77        //Clear the value
-0x3F5E   dec c           0D        
-0x3F5F   inc hl          23
-0x3F60   jp nz, $3F5D    C2 5D 3F  //We want to clear $3F80 to $3F8F, loop until done
-0x3F63   ld hl, $6001    21 01 60  //Load the credit count
-0x3F66   inc (hl)        34        //Insert the first coin, 1 is needed at a minimum
-0x3F67   ld a, b         78        //Load the copied controls input
-0x3F68   and $08         E6 08     //See if it is player 2 input
-0x3F6A   jr z, $3F70     28 04     //If it wasn't P2 start, jump to p1 start
-0x3F6C   inc (hl)        34        //Add the second coin for P2
-0x3F6D   jp $0919        C3 19 09  //Jump to player 2 start routine
-0x3F70   jp $0906        C3 06 09  //Jump to player 1 start routine
-```
-
-#### Routine to print "Free Play" text
-```z80asm
-0x3F77   ld de, $3F8D    11 8D 3F  //Load the "Free Play" string start address
-0x3F7A   ld hl, $749F    21 9F 74  //Load the address for printing characters to screen
-0x3F7D   ld bc, $0020    01 20 00  //Load the offset
-0x3F80   ld a, (de)      1A        //Load the character to be printed
-0x3F81   ld (hl), a      77        //Print the character to the screen
-0x3F82   inc de          13        //Increment the string address pointer
-0x3F83   add hl, bc      09        //Increment the screen address pointer
-0x3F84   ld a, (de)      1A        //Load the next character to be printed
-0x3F85   cp $FF          FE FF     //See if it is the end of the string (0xFF)
-0x3F87   jp nz, $2C4A    C2 4A 2C  //If we still have characters to print, then loop
-0x3F8A   ret             C9
+0x3F40   ld hl, $6005    21 05 60  //Load the game mode to check if it in attract
+0x3F43   ld a, (hl)      7E
+0x3F44   and $02         E6 02     //See if we are in credit screen or game mode
+0x3F46   ret nz          C0        //Return if we are not in attract mode
+0x3F47   ld a, ($7D00)   3A 00 7D  //Read the controls
+0x3F4A   and $0C         E6 0C     //See if 1P or 2P is pressed
+0x3F4C   ret z           C8        //Return if neither have been pressed
+0x3F4D   ld c, a         4F        //Copy the controls into b register for later use
+0x3F4E   xor a           AF        //Clear A so we can clear other values
+0x3F4F   inc (hl)        34        //Increment the game mode at $6005
+0x3F50   inc hl          23        //Increment the address register to hl to $6007
+0x3F51   inc hl          23
+0x3F52   (hl), a         77        //Load game mode by clearing $6007
+0x3F53   call $011C      CD 1C 01  //Clear the sound buffers
+0x3F56   ld hl, $6001    21 01 60  //Load the credit count
+0x3F59   inc (hl)        34        //Add the first credit
+0x3F5A   ld a, c         79        //Load the previously read controls
+0x3F5B   and $08         E6 08     //See if P2 game has been started
+0x3F5D   jp z, $0906     CA 06 09  //If not P2 game, start P1 game
+0x3F60   inc (hl)        34        //Increment second credit
+0x3F61   jp $0919        C3 19 09  //Start a P2 game
 ```
 
 #### Injected Routines
@@ -98,7 +77,6 @@ These were where all the lines of code that were changed inline for it to proper
 
 - 0x017B  Ld a, $7D00  ->   Call $3F40
 - 0x017E  bit 7,a      ->   and $00      //Never trigger the following code
-- 0x061B  [routine]    ->   Call 3F77    //Routine to print free play
 - 0x0782  Values here were changed in order to always print "Push Players Buttons" on high score screen
 
 ### Character Table (Incomplete)
@@ -157,8 +135,12 @@ This was a list of strings of characters used by the game. It was used for print
 |   0x1C  |        Player Coin?       |
 |   0x1E  |    [Nintendo Copyright]   |
 
-- 2C60: Free Play String (backwards)
-    - 29 11 1C 20 10 15 15 22 16
+Strings are stored in the ROM starting at 0x3000. Each string is terminated by the character 0x3F. So one way to have it print "Free Play" is to replace the credit text. What is nice is that the credit string has 4 blank characters at the end. They did this to clear the area on screen for the purpose of printing the credit count. As a result, it can be replaced with the Free Play text with no issues since the routine that prints the credit count has been removed.
+
+```
+Credit String: 0x36C1 - 13 22 15 14 19 24 10 10 10 10 3F
+Replace with: 0x36C1 - 16 22 15 15 10 20 1C 11 29 10 3F
+```
 
 ## Images
 ![Freeplay](Images/DKJrFreeplayScreenshot.png)
