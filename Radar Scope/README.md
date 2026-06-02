@@ -1,20 +1,31 @@
 # Radar Scope Freeplay
-This is a mod to original C and D revisions of the TRS2 Radar Scope ROMs that adds free play to the game. 
+This is a freeplay mod for several ROM sets for Radar Scope. These patches are intended to be used with LunarIPS or similar patching utilities.
 
 ## Patch information
-Two patch files are provided for the *radarscpc* and *radarscp* ROM sets as found in MAME. It may not work on TRS1 board sets
+### Supported ROM Sets
+| **ROM Set** | **MAME Working?** | **Machine Working?** |
+|-------------|:-----------------:|:--------------------:|
+| radarscp1   |        Yes        |       Untested       |
+| radarscpc   |        Yes        |       Untested       |
+| radarscp    |        Yes        |          Yes         |
+
+### TRS1 - radarscp1
+| **Patched ROM Name** | **Size** | **CRC-32 Checksum** | **IC Location** |
+|----------------------|----------|---------------------|-----------------|
+| trs01_5f             |    4k    |       0B4C782A      |        5F       |
+| trs01_5h             |    4k    |       853D0621      |        5H       |
 
 ### TRS2 Revision C - radarscpc
 | **Patched ROM Name** | **Size** | **CRC-32 Checksum** | **IC Location** |
 |----------------------|----------|---------------------|-----------------|
 | trs2c5fc             |    4k    |       0B4C782A      |        5F       |
-| trs2c5hc             |    4k    |       5C4A71D5      |        5H       |
+| trs2c5hc             |    4k    |       853D0621      |        5H       |
 
 ### TRS2 Revision D - radarscp
 | **Patched ROM Name** | **Size** | **CRC-32 Checksum** | **IC Location** |
 |----------------------|----------|---------------------|-----------------|
 | trs2c5fd             |    4k    |       CB632D94      |        5F       |
-| trs2c5hd             |    4k    |       EE5F15D1      |        5H       |
+| trs2c5hd             |    4k    |       37286225      |        5H       |
 
 
 ## Modification Documentation
@@ -44,25 +55,22 @@ Two patch files are provided for the *radarscpc* and *radarscp* ROM sets as foun
 ### Added Routines
 #### Credit/Freeplay Routine
 ```z80asm
-0x2C00   ld a, ($6005)   3A 05 60  //Load the game mode to check if it in attract
-0x2C03   and $02         E6 02     //See if we are in credit screen or game mode
-0x2C05   ret nz          C0        //Return if we are not in attract mode
-0x2C06   ld a, ($7D00)   3A 00 7D  //Read the controls
-0x2C09   ld b, a         47        //Copy the controls into b register for later use
+0x2C00   ld hl, $6005    21 05 60  //Load the game mode to check if it in attract
+0x2C03   ld a, (hl)      7E
+0x2C04   and $02         E6 02     //See if we are in credit screen or game mode
+0x2C06   ret nz          C0        //Return if we are not in attract mode
+0x2C07   ld a, ($7D00)   3A 00 7D  //Read the controls
 0x2C0A   and $0C         E6 0C     //See if player 1 or player 2 has been pressed
 0x2C0C   ret z           C8        //If return if neither has been pressed
-0x2C0D   ld hl, $7D81    21 81 7D  //Load the grid control address
-0x2C10   (hl), $F0       36 F0     //Turn off the grid
-0x2C12   ld hl, $6005    21 05 60  //Load the game mode
-0x2C15   inc (hl)        34        //Set the game mode to credit screen mode
-0x2C16   ld hl, $6001    21 01 65  //Load the credit count
-0x2C19   inc (hl)        34        //Load one credit, needed for 1p start
-0x2C1A   ld a, b         78        //Load the stored inputs
-2x2C1B   and $08         E6 08     //See if player 2 was pressed
-2x2C1D   jr z, $2C23     28 04     //Jump to player 1 start if player 2 wasn't pressed
-2x2C1F   inc (hl)        34        //Add the second credit for 2P
-2x2C20   jp $05EE        C3 EE 05  //Jump to player 2 start routine
-2x2C23   jp $05DB        C3 DB 05  //Jump to player 1 start routine
+0x2C0D   inc (hl)        34        //Set the game mode to credit screen mode
+0x2C0E   ld hl, $7D81    21 81 7D  //Turn off the grid
+0x2C11   (hl), $F0       36 F0     
+0x2C13   ld hl, $6001    21 01 65  //Load the credit count
+0x2C16   inc (hl)        34        //Load one credit, needed for 1p start
+2x2C17   and $08         E6 08     //See if player 2 was pressed
+2x2C19   jr z, $05DB     CA DB 05  //Jump to player 1 start if player 2 wasn't pressed
+2x2C1C   inc (hl)        34        //Add the second credit for 2P
+2x2C1D   jp $05EE        C3 EE 05  //Jump to player 2 start routine
 ```
 
 #### Push to Start String interception functions
