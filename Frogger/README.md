@@ -2,7 +2,13 @@
 This is a mod to original Konami Sega Set 1, Sega Set 2, and Sega Moon Cresta Hardware Frogger ROM sets. 
 
 ## Patch information
-Four sets are provided for the *frogger*, *froggers1*, *froggers2*, *froggermc* ROM sets as found in MAME. It has been tested for this ROM set only and may not work on other revisions of Frogger. The patches are designed to be used with LunarIPS. 
+### Supported ROM Sets
+| **ROM Set** | **MAME Working?** | **Machine Working?** |
+|-------------|:-----------------:|:--------------------:|
+| frogger     |        Yes        |       Untested       |
+| froggermc   |        Yes        |          Yes         |
+| froggers1   |        Yes        |       Untested       |
+| froggers2   |        Yes        |          Yes         |
 
 ### Konami Frogger (frogger.zip)
 | **Patched ROM Name** | **Size** | **CRC-32 Checksum** | **IC Location** |
