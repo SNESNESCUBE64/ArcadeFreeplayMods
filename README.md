@@ -37,4 +37,4 @@ Games can have one of four statuses:
 3. I wrote 3 patches for Head On N: Free Play, Upright, and Upright Freeplay. The upright mods have not been checked in yet because of how involved they were. *However, the cocktail freeplay ROM is tested working.*
 
 ## Known Bugs
-*none to currently reported*
+*none currently reported*
