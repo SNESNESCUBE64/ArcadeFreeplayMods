@@ -9,7 +9,7 @@ One patch file is provided for the *popeyeu* ROM set as found in MAME. It has be
 
 | **Patched ROM Name** | **Size** | **CRC-32 Checksum** | **IC Location** |
 |----------------------|----------|---------------------|-----------------|
-| 7a                   |    8k    |       3FEF8EEC      |        7A       |
+| 7a                   |    8k    |       86D0162C      |        7A       |
 
 ## Modification Documentation
 This is not a 100% complete documentation on what was done. A couple minor changes to call these routines are in the rom. This is more to provide source for the routines that were written for this mod.
@@ -17,7 +17,7 @@ This is not a 100% complete documentation on what was done. A couple minor chang
 ### Noteworthy Variables in Memory
 - Credit Count -> 8fdd
 - Game status -> 8fff   80- 1p turn, 81-2pturn
-- Added  Checksum padding value -> 10F3 - 69
+- Added  Checksum padding value -> 10F3 - 89
 
 **In 02**
 - 0x04 - Player 1 Start
@@ -56,21 +56,20 @@ Inject the Freeplay call at 1C6F
 1C72 = Routine where "Top 5 Scores" gets written
 1C57 = Routine where high scores get written
 
-0x1F3C Ld hl, 1F38  21 55 1f      //Load the string address
-0x1F3F Ld de, a397  11 97 a3      //Load vram address
-0x1F42 Ld bc, a797  01 97 a7      //Load Color address
-0x1F45 Ld a, (hl)   7E            //Load the next character
-0x1F46 Cp ff        FE FF         //See if it is FF
-0x1F48 jrz 06       28 06         //If it is FF, we are done, write the address and bail
-0x1F4A Ld (de),a    12            //Write character to space
-0x1F4B sub a        97            //Set color palette to 0x00 (light green)
-0x1F4C Ld (bc),a    02            //Write the color palette
-0x1F4D inc de       13            //Increment position counters
-0x1F4E inc hl       23
-0x1F4F inc bc       03
-0x1F50 jr  89       18 F3         //Jump back to the start of the loop
-0x1F52 Ld hl, $189D 21 9D 18      //Load back substituted instructions
-0x1F54 ret          c9            //Return back to drawing routine
+Address  Instruction     Opcodes    Description
+---------------------------------------------------------------------------
+0x1F3C   ld hl, $1F38    21 55 1F  //Load the string address
+0x1F3F   ld de, $A396    11 96 A3  //Load VRAM address
+0x1F42   ld bc, $0009    01 09 00  //Load Counter for LDIR
+0x1F45   ldir            ED B0     //Print "Free Play"
+0x1F47   ld c, $09       0E 09     //Reset counter
+0x1F49   ld hl, $A796    21 96 A7  //Load color address
+0x1F4C   ld (hl), $00    36 08     //Write the color (Green)
+0x1F4E   inc hl          23        //Load next color address location
+0x1F4F   dec c           0D        //decrement the counter
+0x1F50   jr nz, $1F4C    20 FA     //Loop until we finish coloring the whole string
+0x1F52   ld hl, $189D    21 9D 18  //Load back substituted instructions
+0x1F54   ret             C9        //Return back to drawing routine
 ```
 #### DMA Source RAM Clear
 ```z80asm
