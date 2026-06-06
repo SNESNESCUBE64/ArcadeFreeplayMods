@@ -7,7 +7,7 @@ Three patch files are provided for the *skyskipr* ROM set as found in MAME. It h
 
 | **Patched ROM Name** | **Size** | **CRC-32 Checksum** | **IC Location** |
 |----------------------|----------|---------------------|-----------------|
-| tnx1-c.2a            |    4k    |       0123F9E7      |        2A       |
+| tnx1-c.2a            |    4k    |       96A6030D      |        2A       |
 | tnx1-c.2b            |    4k    |       19A3B422      |        2B       |
 | tnx1-c.2d            |    4k    |       72F09728      |        2D       |
 
@@ -65,25 +65,22 @@ Address  Instruction     Opcodes    Description
 0x0E85   ret             C9         //Check to see if anything is there
 ```
 
-#### Print "Freeplay"
+#### Print "Free Play"
 ```Z80asm
 Address  Instruction     Opcodes    Description
 ---------------------------------------------------------------------------
 0x0E8F   call $3F5B      CD 5B 3F  //Call substituted instruction
 0x0E92   ld hl, $0E86    21 86 0E  //Load Freeplay string address
-0x0E95   ld de, $A397    11 97 A3  //Load VRAM address
-0x0E98   ld bc, $A797    01 97 A7  //Load color address
-0x0E9B   ld a, (hl)      7E        //Load next character
-0x0E9C   cp $FF          FE FF     //See if it is the stop character
-0x0E9E   jr z, $0EA8     28 08     //Jump to return, we are done printing
-0x0EA0   ld (de), a      12        //Write the character
-0x0EA1   sub a           97        //Set the color (Yellow)
-0x0EA2   ld (bc), a      02        //Write the color palette
-0x0EA3   inc de          13        //Increment position counters
-0x0EA4   inc hl          23
-0x0EA5   inc bc          03
-0x0EA6   jr $0E9B        18 F3     //Load the next character
-0x0EA8   ret
+0x0E95   ld de, $A396    11 96 A3  //Load VRAM address
+0x0E98   ld bc, $0009    01 09 00  //Load Counter for LDIR
+0x0E9B   ldir            ED B0     //Print "Free Play"
+0x0E9D   ld c, $09       0E 09     //Reset counter
+0x0E9F   ld hl, $A796    21 96 A7  //Load color address
+0x0EA2   ld (hl), $08    36 08     //Write the color (salmon)
+0x0EA4   inc hl          23        //Load next color address location
+0x0EA5   dec c           0D        //decrement the counter
+0x0EA6   jr nz, $0EA2    20 FA     //Loop until we finish coloring the whole string
+0x0EA8   ret             C9
 ```
 
 #### Autostart Routine
@@ -137,11 +134,34 @@ This is the characters I found for the video RAM section 0xA000 - 0xA3FF. This w
 | X          | 0x21    |
 | Y          | 0x22    |
 | Z          | 0x23    |
+| [Blank]    | 0xFF    |
 
-Freeplay String:
+Free play String:
 ```
-0x0E86:   0F 1B 0E 0E 19 15 0A 22 FF
+0x0E86:   0F 1B 0E 0E FF 19 15 0A 22
 ```
+
+### Color Palette Values
+This one uses the lower 4 bits of the bytes. These values are used in the color RAM section of 0xA400 - 0xA7FF. The color is in reference to text printed, the pallet can have more than one color potentially. I am unsure exactly how it works, perhaps the upper bits are for a secondary color that isn't used by the text. It was only relevant for printing text on screen in this case.
+| **Color** | **Hex**             |
+|-----------|---------------------|
+| 0x00      | Yellow              |
+| 0x01      | Red                 |
+| 0x02      | Pink                |
+| 0x03      | Dark Gray           |
+| 0x04      | Dark Blue           |
+| 0x05      | Pink (Same as 2)    |
+| 0x06      | Cyan                |
+| 0x07      | Light Gray          |
+| 0x08      | Salmon              |
+| 0x09      | Yellow/Green        |
+| 0x0A      | Mint                |
+| 0x0B      | Yellow (Same as 0)  |
+| 0x0C      | White               |
+| 0x0D      | Blue                |
+| 0x0E      | Green               |
+| 0x0F      | Brown               |
+
 
 ## Images
 ![Freeplay](Images/SkySkipperFP.png)
