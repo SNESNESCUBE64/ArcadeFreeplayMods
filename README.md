@@ -19,6 +19,7 @@ Games can have one of four statuses:
 | Head On 2 (Sega Slimline) | Working         | Working¹           |
 | Heli Fire                 | Working         | Working            |
 | Mario Bros.               | Working         | Working            |
+| Pacman Plus               | Working         | Working⁴           |
 | Popeye                    | Working         | Working²           |
 | Pulsar                    | Working         | Untested           |
 | Punch-Out!!               | Working         | Working            |
@@ -35,6 +36,7 @@ Games can have one of four statuses:
 1. Tested working on Nintendo Head On N hardware.
 2. Popeye was tested on real hardware on a board that did not come with a populated security chip. Some boards have this chip and the mod will likely not work with this.
 3. I wrote 3 patches for Head On N: Free Play, Upright, and Upright Freeplay. The upright mods have not been checked in yet because of how involved they were. *However, the cocktail freeplay ROM is tested working.*
+4. Tested working using encrypted version.
 
 ## Known Bugs
 *none currently reported*
