@@ -37,4 +37,4 @@ The padding bytes have no impact on the code itself and can be changed in order 
 *to do*
 
 ## Images
-![Zaxxon Free Play](Images/ZaxxonFP.png)
+![Pacman Plus Free Play](Images/PPlusFP.png)
