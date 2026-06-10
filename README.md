@@ -28,6 +28,7 @@ Games can have one of four statuses:
 | Space Demon               | Working         | Working            |
 | Space Encounters          | Working         | Working            |
 | Space Firebird (Nintendo) | Working         | Working            |
+| Stratovox                 | Working         | Working            |
 | Super Punch-Out!!         | Working         | Working            |
 | Turbo (Unencrypted ROMs)  | Working         | Untested           |
 | Zaxxon                    | Working         | Working            |
