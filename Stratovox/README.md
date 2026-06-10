@@ -8,7 +8,7 @@ One patch are provided for the *stratvox* ROM set as found in MAME. It has been 
 | **Patched ROM Name** | **Size** | **CRC-32 Checksum** | **IC Location** |
 |----------------------|----------|---------------------|-----------------|
 | ls01.bin             |    2k    |       13457EB8      |       4/5J      |
-| ls06.bin             |    2k    |       0767F96F      |       11J       |
+| ls06.bin             |    2k    |       BAC01655      |       11J       |
 
 ## Modification Documentation
 To Do
