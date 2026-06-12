@@ -132,6 +132,147 @@ Note, this section is out of date. Some of these routines have been rewritten
 
 Free Play = 16 22 15 15 10 20 1C 11 29
 
+## Modification Documentation (froggers2)
+
+### Noteworthy Places in Memory
+- 0x83E1: Credit Count
+- 0x83E2: Credit Switch Held
+- 0x83E5: Player 1 life count
+- 0x83E6: Player 2 life count
+- 0x83BA: Game Status
+   - 0x00: Attract Mode
+   - 0x01: Game Mode
+- 0xE000: Coin switch inputs
+   - 0x80: Coin Switch 1 Mask
+   - 0x40: Coin Switch 2 Mask
+   - 0x04: Service Switch 2 Mask
+- 0xE002: Start switch inputs
+   - 0x80: P1 Switch Mask
+   - 0x40: P2 Switch Mask
+
+### Added Routines
+#### Credit/Freeplay Routine + Initialization
+```z80asm
+0x106B   Ld a, ($83BA)     3A BA 83   //Load the game state
+0x106E   and a             A7         //See if we are in attract
+0x106F   ret nz            C0         //Continue on if attract
+0x1070   ld a, ($E002)     3A 02 E0   //Read the start inputs
+0x1073   cpl               2F         //take the complement
+0x1074   and $C0           E6 C0      //Only proceed if we read the start buttons
+0x1076   ret z             C8         //skip if we do not have anything
+0x1077   ld hl, $83E1      21 E1 83   //Load credit count
+0x107A   ld (hl), $00      36 00      //Clear the credit count
+0x107C   rlca              07         //See if it was 1P
+0x107D   jr c, $1080       36 01      //It is player 1, only insert one coin
+0x107F   inc (hl)          34         //Insert player 2 credit
+0x1080   inc (hl)          34         //Insert player 1 credit
+
+//Startup and Memory clearing
+0x1081   ld hl, 8000       21 00 80   //load sprite ram source, we need to clear it
+0x1084   xor a             AF         //clear a so we can erase
+0x1085   ld c, $03         0E 03      //Clear $8000 - $819A
+0x1087   ld b, $88         06 88
+0x1089   ld (hl), a        77
+0x108A   inc hl            23
+0x108B   dec b             05
+0x108C   jr nz, $1089      20 FB
+0x108E   dec c             0D
+0x108F   jr nz, $1087      20 F6
+0x1091   ld (hl), a        77
+0x1092   inc hl            23
+0x1093   ld (hl), a        77
+0x1094   inc hl            23
+0x1095   ld hl, $825B      21 5B 82   //Clear $825B - $82A0
+0x1098   ld b, $45         06 45
+0x109A   ld (hl), a        77
+0x109B   inc hl            23
+0x109C   dec b             05
+0x109D   jr nz, $109A      20 FB
+0x109F   ld hl, $81A6      21 A6 81   //Clear $81A6 - $8254
+0x10A2   ld b, $AE         06 AE
+0x10A4   ld (hl), a        77
+0x10A5   inc hl            23
+0x10A6   dec b             05
+0x10A7   jr nz, $10A4      20 FB
+
+//Initialization
+0x10A9   ld a, $05         3E 05
+0x10AB   ld ($83D6), a     32 D6 83
+0x10AE   xor a             AF
+0x10AF   ld ($83D8), a     32 D8 83
+0x10B2   ld hl, $83BA      21 BA 83
+0x10B5   ld (hl), $01      36 01
+0x10B7   ret               C9         //Go back to normal operation
+```
+
+#### Write the "LAY" part of "FREE PLAY" where "CREDIT 00" was
+```z80asm
+//hl already has the proper address loaded
+0x1060   ld (hl), 1C     36 1C      //Write 'L'
+0x1062   ld l, 9F        2E 9F      //Load next address
+0x1064   ld (hl), 11     36 11      //Write 'A'
+0x1066   ld l, 7F        2E 7F      //Load next address
+0x1068   ld (hl), 29     36 29      //Write 'Y'
+0x106A   ret             C9
+```
+
+### Injected Routines
+#### Autostart Routine
+```z80asm
+0x0390   ld a, ($83E1)     3A E1 83   //Load the credit count
+0x0393   rrca              0F         //See if P1
+0x0394   jr c, $039D       38 07      //Jump to P1 routine
+0x0396   rrca              0F         //See if P2
+```
+
+#### Print Freeplay
+```z80asm
+0x0BAF   ld hl, $A8BF      21 BF A8   
+0x0BB2   Call $1060        CD 60 10   //print "LAY"
+0x0BB5   ret               C9
+```
+
+#### Call Freeplay Routine
+```z80asm
+0x3E05   Call 106B         CD 6B 10   //Call Freeplay Routine
+0x3E08   ret               C9
+```
+
+0xFF2 - 0x1004: Free play string updates
+
+
+### Character Table (Incomplete)
+|  Hex | Character |
+|:----:|:---------:|
+| 0x10 |  [Space]  |
+| 0x11 |     A     |
+| 0x12 |     B     |
+| 0x13 |     C     |
+| 0x14 |     D     |
+| 0x15 |     E     |
+| 0x16 |     F     |
+| 0x17 |     G     |
+| 0x18 |     H     |
+| 0x19 |     I     |
+| 0x1A |     J     |
+| 0x1B |     K     |
+| 0x1C |     L     |
+| 0x1D |     M     |
+| 0x1E |     N     |
+| 0x1F |     O     |
+| 0x20 |     P     |
+| 0x21 |     Q     |
+| 0x22 |     R     |
+| 0x23 |     S     |
+| 0x24 |     T     |
+| 0x25 |     U     |
+| 0x26 |     V     |
+| 0x27 |     W     |
+| 0x28 |     X     |
+| 0x29 |     Y     |
+| 0x2A |     Z     |
+
+Free Play = 16 22 15 15 10 20 1C 11 29
 
 ## Images
 ![Frogger FP1](Images/FroggerFP1.png)
