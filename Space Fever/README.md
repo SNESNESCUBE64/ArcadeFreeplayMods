@@ -9,9 +9,8 @@ Several patch files are provided for the *spacefev* ROM set as found in MAME. It
 |----------------------|----------|---------------------|-----------------|
 | f1-ro-.bin           |    1k    |       FFCAFC16      |       F1        |
 | f2-ro-.bin           |    1k    |       70209DA3      |       F2        |
-| g2-ro-.bin           |    1k    |       DB9F8F0D      |       G2        |
-| h1-ro-.bin           |    1k    |       7F12507C      |       H1        |
-| i1-ro-p.bin          |    1k    |       7DB1769A      |       I1        |
+| h1-ro-.bin           |    1k    |       197679A8      |       H1        |
+| i1-ro-p.bin          |    1k    |       B85F9842      |       I1        |
 
 ## Modification Documentation
 To Do
