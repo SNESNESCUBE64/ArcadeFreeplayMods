@@ -183,7 +183,8 @@ Space Fever has a table for easy printing of characters. For this mod, some lett
 | 0x26      |      [*SPACE*]     |      [*SPACE*]     |
 | 0x27      |          I         |          I         |
 | 0x28      |         II         |         II         |
-| 0x29      |          ?         |          ?         |
+| 0x29      |          -         |          -         |
+| 0x2A      |          ?         |          ?         |
 
 ### New Strings
 #### FREE  PLAY
