@@ -5,7 +5,7 @@ This is a mod for original Nintendo Space Fever ROMs that adds free play to the 
 ### Supported ROM Sets
 | **ROM Set** | **MAME Working?** | **Machine Working?** |
 |-------------|:-----------------:|:--------------------:|
-| spaceFev    |        Yes        |       Untested       |
+| spacefev    |        Yes        |       Untested       |
 | spacefevo   |        Yes        |       Untested       |
 | spacefevo2  |        Yes        |       Untested       |
 
