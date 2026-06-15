@@ -46,14 +46,16 @@ This is a mod for original Nintendo Space Fever ROMs that adds free play to the 
 |    I1   |       0x1800      |    0x400   |
 
 ### Noteworthy Variables in Memory
-IN0 - Start1 - 0x08
-IN0 - Start2 - 0x10
-IN0 - Coin - 0x80
+#### Port 0
+- IN0 - Start1 - 0x08
+- IN0 - Start2 - 0x10
+- IN0 - Coin - 0x80
 
-Coin Count: 0x60DB
-Coin switch held: 0x60DA
-Credit Screen: 0x6093
-In a game: 0x6094
+#### Memory Locations
+- Coin Count: 0x60DB
+- Coin switch held: 0x60DA
+- Credit Screen: 0x6093
+- In a game: 0x6094
 
 ### Added Routines
 #### Free Play Routine
