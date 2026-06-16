@@ -28,7 +28,7 @@ Games can have one of four statuses:
 | Space Demon               | Working         | Working            |
 | Space Encounters          | Working         | Working            |
 | Space Fever               | Working         | Untested           |
-| Space Fever Highsplitter  | Working         | Untested           |
+| Space Fever HiSplitter    | Working         | Untested           |
 | Space Firebird (Nintendo) | Working         | Working            |
 | Stratovox                 | Working         | Working            |
 | Super Punch-Out!!         | Working         | Working            |

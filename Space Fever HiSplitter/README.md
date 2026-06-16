@@ -1,5 +1,5 @@
-# Space Fever Freeplay Highsplitter
-This is a mod for original Nintendo Space Fever Highsplitter ROMs that adds free play to the game. These patches are intended to be used with LunarIPS or similar patching utilities.
+# Space Fever Freeplay HiSplitter
+This is a mod for original Nintendo Space Fever HiSplitter ROMs that adds free play to the game. These patches are intended to be used with LunarIPS or similar patching utilities.
 
 ## Patch information
 ### Supported ROM Sets
@@ -17,7 +17,7 @@ This is a mod for original Nintendo Space Fever Highsplitter ROMs that adds free
 | g2-ha-.bin           |    1k    |       4FAF2A90      |       G2        |
 | hs.h1                |    1k    |       914A1141      |       H1        |
 | h2-ha-.bin           |    1k    |       6E73DA9D      |       H2        |
-| hs.i1                |    1k    |       7EA401FB      |       I1        |
+| hs.i1                |    1k    |       54734E3F      |       I1        |
 
 ## Modification Documentation
 To Do
