@@ -51,6 +51,11 @@ This is a mod for original Nintendo Space Fever ROMs that adds free play to the 
 - IN0 - Start2 - 0x10
 - IN0 - Coin - 0x80
 
+#### Port 5
+- OUT5 - Flip Screen - 0x20
+    - Normal: Clear bit
+    - Flipped Screen: Set bit
+
 #### Memory Locations
 - Coin Count: 0x60DB
 - Coin switch held: 0x60DA
