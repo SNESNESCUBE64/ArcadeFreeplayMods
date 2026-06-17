@@ -1,5 +1,5 @@
 # Space Launcher Freeplay      
-This is a mod for original Nintendo Space Launcherr ROMs that adds free play to the game. These patches are intended to be used with LunarIPS or similar patching utilities.
+This is a mod for original Nintendo Space Launcher ROMs that adds free play to the game. These patches are intended to be used with LunarIPS or similar patching utilities.
 
 ## Patch information
 ### Supported ROM Sets
