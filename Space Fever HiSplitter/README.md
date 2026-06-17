@@ -1,4 +1,4 @@
-# Space Fever Freeplay HiSplitter
+# Space Fever HiSplitter Freeplay
 This is a mod for original Nintendo Space Fever HiSplitter ROMs that adds free play to the game. These patches are intended to be used with LunarIPS or similar patching utilities.
 
 ## Patch information
