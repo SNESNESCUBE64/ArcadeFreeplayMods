@@ -30,6 +30,7 @@ Games can have one of four statuses:
 | Space Fever               | Working         | Untested           |
 | Space Fever HiSplitter    | Working         | Untested           |
 | Space Firebird (Nintendo) | Working         | Working            |
+| Space Launcher            | Working         | Untested           |
 | Stratovox                 | Working         | Working            |
 | Super Punch-Out!!         | Working         | Working            |
 | Turbo (Unencrypted ROMs)  | Working         | Untested           |
