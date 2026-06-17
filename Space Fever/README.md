@@ -12,26 +12,26 @@ This is a mod for original Nintendo Space Fever ROMs that adds free play to the 
 ### spacefev
 | **Patched ROM Name** | **Size** | **CRC-32 Checksum** | **IC Location** |
 |----------------------|----------|---------------------|-----------------|
-| f1-ro-.bin           |    1k    |       FFCAFC16      |       F1        |
-| f2-ro-.bin           |    1k    |       70209DA3      |       F2        |
+| f1-ro-.bin           |    1k    |       6AD69649      |       F1        |
+| f2-ro-.bin           |    1k    |       BD310222      |       F2        |
 | h1-ro-.bin           |    1k    |       486D4422      |       H1        |
-| i1-ro-p.bin          |    1k    |       4D2FDF10      |       I1        |
+| i1-ro-p.bin          |    1k    |       49C0299B      |       I1        |
 
 ### spacefevo
 | **Patched ROM Name** | **Size** | **CRC-32 Checksum** | **IC Location** |
 |----------------------|----------|---------------------|-----------------|
-| f1-ro-.bin           |    1k    |       FFCAFC16      |       F1        |
-| f2-ro-.bin           |    1k    |       70209DA3      |       F2        |
+| f1-ro-.bin           |    1k    |       6AD69649      |       F1        |
+| f2-ro-.bin           |    1k    |       BD310222      |       F2        |
 | h1-ro-.bin           |    1k    |       486D4422      |       H1        |
-| i1-ro-.bin           |    1k    |       3846F170      |       I1        |
+| i1-ro-.bin           |    1k    |       3CA907FB      |       I1        |
 
 ### spacefevo2
 | **Patched ROM Name** | **Size** | **CRC-32 Checksum** | **IC Location** |
 |----------------------|----------|---------------------|-----------------|
-| f1-i-.bin            |    1k    |       B59B6C43      |       F1        |
-| f2-i-.bin            |    1k    |       00578B45      |       F2        |
+| f1-i-.bin            |    1k    |       2087061C      |       F1        |
+| f2-i-.bin            |    1k    |       CD4614C4      |       F2        |
 | h1-i-.bin            |    1k    |       C0E68C88      |       H1        |
-| i1-i-.bin            |    1k    |       7B330C57      |       I1        |
+| i1-i-.bin            |    1k    |       7FDCFADC      |       I1        |
 
 ## Modification Documentation
 ### ROM Address Range
@@ -80,17 +80,18 @@ Address  Instruction       Opcodes    Description
 0x01F2   ei                FB         //Enable interrupts, the invaders won't load without it
 0x01F3   xra a             AF         //Clear $60D9
 0x01F4   sta $60D9         32 DB 60
-0x01F7   jmp $13ED         C3 ED 13   //Jump to the autostart
+0x01F7   out 5, a          D3 05      //Make sure the screen is right side up
+0x01F9   jmp $13ED         C3 ED 13   //Jump to the autostart
 ```
 
 #### Clear Credits (Game Mode)
 ```8080asm
 Address  Instruction       Opcodes    Description
 ---------------------------------------------------------------------------
-0x01FA   xra a             AF         //Clear credits         
-0x01FB   sta $60DB         32 DB 60
-0x01FE   call $0E8E        CD 8E 0E   //From injected routine
-0x0201   ret               C9         //Go back to game over routine
+0x01FC   xra a             AF         //Clear credits         
+0x01FD   sta $60DB         32 DB 60
+0x0200   call $0E8E        CD 8E 0E   //From injected routine
+0x0203   ret               C9         //Go back to game over routine
 ```
 
 #### Modified Scoreboard Routine
@@ -114,7 +115,7 @@ Address  Instruction       Opcodes    Description
 ### Modified  Routines
 #### Injected Routines
 ```
-0x0719   call $0E8E -> call $01FA     //Clear credits
+0x0719   call $0E8E -> call $01FC     //Clear credits
 0x118C   call $1141 -> call $1A80     //
 0x11A0   mvi c, $0C -> mvi c, $11     //Changed string length for "Play Space Fever"
 0x11A2   lxi h, $4A18 -> lxi h, $481A //Changed start position (up and left)
