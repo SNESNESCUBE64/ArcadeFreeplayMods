@@ -12,7 +12,7 @@ This is a mod for original Nintendo Space Fever HiSplitter ROMs that adds free p
 ### highsplt 
 | **Patched ROM Name** | **Size** | **CRC-32 Checksum** | **IC Location** |
 |----------------------|----------|---------------------|-----------------|
-| f1-ha-.bin           |    1k    |       8DCEF066      |       F1        |
+| f1-ha-.bin           |    1k    |       81F998D5      |       F1        |
 | f2-ha-.bin           |    1k    |       D61C8C04      |       F2        |
 | g2-ha-.bin           |    1k    |       4FAF2A90      |       G2        |
 | hs.h1                |    1k    |       914A1141      |       H1        |
@@ -22,7 +22,7 @@ This is a mod for original Nintendo Space Fever HiSplitter ROMs that adds free p
 ### highsplta
 | **Patched ROM Name** | **Size** | **CRC-32 Checksum** | **IC Location** |
 |----------------------|----------|---------------------|-----------------|
-| f1-ha-.bin           |    1k    |       8DCEF066      |       F1        |
+| f1-ha-.bin           |    1k    |       81F998D5      |       F1        |
 | f2-ha-.bin           |    1k    |       D61C8C04      |       F2        |
 | g2-ha-.bin           |    1k    |       4FAF2A90      |       G2        |
 | h1-ha-.bin           |    1k    |       CFE10E91      |       H1        |
@@ -32,7 +32,7 @@ This is a mod for original Nintendo Space Fever HiSplitter ROMs that adds free p
 ### highspltb
 | **Patched ROM Name** | **Size** | **CRC-32 Checksum** | **IC Location** |
 |----------------------|----------|---------------------|-----------------|
-| f1-ha-.bin           |    1k    |       8DCEF066      |       F1        |
+| f1-ha-.bin           |    1k    |       81F998D5      |       F1        |
 | f2-ha-.bin           |    1k    |       D61C8C04      |       F2        |
 | g2-ha-.bin           |    1k    |       4FAF2A90      |       G2        |
 | h1-ha-.bin           |    1k    |       CFE10E91      |       H1        |
