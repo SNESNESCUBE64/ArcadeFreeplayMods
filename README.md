@@ -44,4 +44,4 @@ Games can have one of four statuses:
 4. Tested working using encrypted version.
 
 ## Known Bugs
-*none currently reported*
+18 June 2026: 2P game does not work with froggers2 ROM set.

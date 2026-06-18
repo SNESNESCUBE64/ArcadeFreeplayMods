@@ -8,7 +8,7 @@ This is a mod to original Konami Sega Set 1, Sega Set 2, and Sega Moon Cresta Ha
 | frogger     |        Yes        |       Untested       |
 | froggermc   |        Yes        |          Yes         |
 | froggers1   |        Yes        |       Untested       |
-| froggers2   |        Yes        |          Yes         |
+| froggers2   |        No         |          No          |
 
 ### Konami Frogger (frogger.zip)
 | **Patched ROM Name** | **Size** | **CRC-32 Checksum** | **IC Location** |
