@@ -1,5 +1,5 @@
 # Frogger Freeplay
-This is a mod to original Konami Sega Set 1, Sega Set 2, and Sega Moon Cresta Hardware Frogger ROM sets. 
+This is a mod to original Konami, Sega Set 1, Sega Set 2, and Sega Moon Cresta Hardware Frogger ROM sets. 
 
 ## Patch information
 ### Supported ROM Sets
@@ -8,7 +8,7 @@ This is a mod to original Konami Sega Set 1, Sega Set 2, and Sega Moon Cresta Ha
 | frogger     |        Yes        |       Untested       |
 | froggermc   |        Yes        |          Yes         |
 | froggers1   |        Yes        |       Untested       |
-| froggers2   |        No         |          No          |
+| froggers2   |        Yes        |       Untested       |
 
 ### Konami Frogger (frogger.zip)
 | **Patched ROM Name** | **Size** | **CRC-32 Checksum** | **IC Location** |
@@ -25,7 +25,7 @@ This is a mod to original Konami Sega Set 1, Sega Set 2, and Sega Moon Cresta Ha
 ### Sega Frogger Set 2 (froggers2.zip)
 | **Patched ROM Name** | **Size** | **CRC-32 Checksum** | **IC Location** |
 |----------------------|----------|---------------------|-----------------|
-| epr-1012.ic5         |    4k    |       9C6B97A9      |       IC5       |
+| epr-1012.ic5         |    4k    |       9CF81379      |       IC5       |
 | epr-1013a.ic6        |    4k    |       F3AF8D30      |       IC6       |
 | epr-1015.ic8         |    4k    |       D2A9D453      |       IC8       |
 
@@ -223,6 +223,7 @@ Free Play = 16 22 15 15 10 20 1C 11 29
 0x0393   rrca              0F         //See if P1
 0x0394   jr c, $039D       38 07      //Jump to P1 routine
 0x0396   rrca              0F         //See if P2
+0x0397   jr nc, $0354      20 BB      //If it isn't P2 game, loop around
 ```
 
 #### Print Freeplay

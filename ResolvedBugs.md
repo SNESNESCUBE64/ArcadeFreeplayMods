@@ -11,3 +11,6 @@ This section is a log for fixed bugs with patches. It is intended to act as arch
 ## Frogger
 **April 22nd 2026**: If you start a game during the demo, the death block location of the vehicles can be wrong.
 - Resolved by ensuring the correct spots in memory were cleared. When starting from demo mode, the game does not automatically clear the game RAM when starting the way I did, so extra code had to be added to clear out the correct spaces in memory. Patches have been updated to resolve this issue on 25 April 2026.
+
+**June 18th 2026**: 2P game does not work with froggers2 ROM set.
+- at 0x397, a JR if carry was used instead of a JR if no carry. This seemed to be a miss from when the mod was ported from froggers1.
