@@ -11,6 +11,7 @@ Games can have one of four statuses:
 |       **Game Name**       | **MAME Tested** | **Machine Tested** |
 |:-------------------------:|:---------------:|:------------------:|
 | Arm Wrestling             | Working         | Working            |
+| Bomb Bee                  | Working         | Untested           |
 | Donkey Kong               | Working         | Working            |
 | Donkey Kong Jr            | Working         | Working            |
 | Donkey Kong 3             | Working         | Working            |
