@@ -12,6 +12,7 @@ Games can have one of four statuses:
 |:-------------------------:|:---------------:|:------------------:|
 | Arm Wrestling             | Working         | Working            |
 | Bomb Bee                  | Working         | Untested           |
+| Cutie Q                   | Working         | Untested           |
 | Donkey Kong               | Working         | Working            |
 | Donkey Kong Jr            | Working         | Working            |
 | Donkey Kong 3             | Working         | Working            |
