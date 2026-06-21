@@ -36,6 +36,7 @@ Games can have one of four statuses:
 | Stratovox                 | Working         | Working            |
 | Super Punch-Out!!         | Working         | Working            |
 | Turbo (Unencrypted ROMs)  | Working         | Untested           |
+| Warp Warp                 | Working         | Untested           |
 | Zaxxon                    | Working         | Working            |
 
 
