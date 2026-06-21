@@ -22,13 +22,13 @@ This is a mod to original Warp Warp ROMs that adds attract mode to the free play
 | **Patched ROM Name** | **Size** | **CRC-32 Checksum** | **IC Location** |
 |----------------------|----------|---------------------|-----------------|
 | g-09601.2r           |    4k    |       98228101      |       2R        |
-| g-09603.1p           |    4k    |       48402B02      |       1P        |
+| g-09603.1p           |    4k    |       0857AEF8      |       1P        |
 
 ### warpwarp
 | **Patched ROM Name** | **Size** | **CRC-32 Checksum** | **IC Location** |
 |----------------------|----------|---------------------|-----------------|
 | g-09601.2r           |    4k    |       98228101      |       2R        |
-| g-09603.1p           |    4k    |       48402B02      |       1P        |
+| g-09603.1p           |    4k    |       0857AEF8      |       1P        |
 
 ## DIP Switch Setting
 This is found on DPSW 1 on the game PCB. It uses switches 1 and 2.
