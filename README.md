@@ -20,6 +20,7 @@ Games can have one of four statuses:
 | Head On N                 | Working         | Working³           |
 | Head On 2 (Sega Slimline) | Working         | Working¹           |
 | Heli Fire                 | Working         | Working            |
+| Kangaroo                  | In Progress     | In Progress        |
 | Mario Bros.               | Working         | Working            |
 | Pacman Plus               | Working         | Working⁴           |
 | Popeye                    | Working         | Working²           |
