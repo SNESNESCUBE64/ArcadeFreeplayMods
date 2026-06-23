@@ -1,5 +1,5 @@
 # Kangaroo Freeplay
-This is an improved freeplay mod for Atari Kangaroo. It can be used with credits enabled as well as free play mode. These patches are meant to be used with LunarIPS or other similar patching utilities.
+This is an improved freeplay mod for Atari/Sun Electronics Kangaroo. It can be used with credits enabled as well as free play mode. These patches are meant to be used with LunarIPS or other similar patching utilities.
 
 *Note that this removes the ROM check part of the self test.*
 
