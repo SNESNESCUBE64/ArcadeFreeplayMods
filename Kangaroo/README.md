@@ -10,15 +10,22 @@ This is an improved freeplay mod for Atari Kangaroo. It can be used with credits
 | **ROM Set** | **MAME Working?** | **Machine Working?** |
 |-------------|:-----------------:|:--------------------:|
 | kangaroo    |        Yes        |       Untested       |
+| kangarooa   |        Yes        |       Untested       |
 
 
 ### kangaroo
 | **Patched ROM Name** | **Size** | **CRC-32 Checksum** | **IC Location** |
 |----------------------|----------|---------------------|-----------------|
-| tvg_75.0             |    4k    |       98985403      |                 |
-| tvg_78.3             |    4k    |       7882A880      |                 |
-| tvg_79.4             |    4k    |       17B561FF      |                 |
-| tvg_80.5             |    4k    |       E4B6AFE3      |                 |
+| tvg_75.0             |    4k    |       DF75175E      |                 |
+| tvg_78.3             |    4k    |       F3FBBD19      |                 |
+| tvg_80.5             |    4k    |       C82054EE      |                 |
+
+### kangarooa
+| **Patched ROM Name** | **Size** | **CRC-32 Checksum** | **IC Location** |
+|----------------------|----------|---------------------|-----------------|
+| 136008-101.ic7       |    4k    |       DF75175E      |                 |
+| 136008-104.ic10      |    4k    |       F3FBBD19      |                 |
+| 136008-106.ic17      |    4k    |       76BFE09B      |                 |
 
 ## DIP Switch Setting
 This is found on 8 position dip switch on the game PCB. It uses switches 5, 6, 7, and 8.
