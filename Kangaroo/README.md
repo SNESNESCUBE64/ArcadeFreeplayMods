@@ -9,7 +9,7 @@ This is an improved freeplay mod for Atari/Sun Electronics Kangaroo. It can be u
 |-------------|:-----------------:|:--------------------:|
 | kangaroo    |        Yes        |       Untested       |
 | kangarooa   |        Yes        |       Untested       |
-
+| kangaroob   |        Yes        |       Untested       |
 
 ### kangaroo
 | **Patched ROM Name** | **Size** | **CRC-32 Checksum** | **IC Location** |
@@ -24,6 +24,13 @@ This is an improved freeplay mod for Atari/Sun Electronics Kangaroo. It can be u
 | 136008-101.ic7       |    4k    |       77D6448B      |                 |
 | 136008-104.ic10      |    4k    |       07C366DB      |                 |
 | 136008-106.ic17      |    4k    |       EA8253FC      |                 |
+
+### kangaroob
+| **Patched ROM Name** | **Size** | **CRC-32 Checksum** | **IC Location** |
+|----------------------|----------|---------------------|-----------------|
+| k1.ic7               |    4k    |       77D6448B      |                 |
+| k4.ic10              |    4k    |       07C366DB      |                 |
+| k6.ic17              |    4k    |       0D98378A      |                 |
 
 ## DIP Switch Setting
 This is found on 8 position dip switch on the game PCB. It uses switches 5, 6, 7, and 8.
