@@ -10,7 +10,7 @@ Games can have one of four statuses:
   
 |       **Game Name**       | **MAME Tested** | **Machine Tested** |
 |:-------------------------:|:---------------:|:------------------:|
-| Arm Wrestling             | Working         | Working            |
+| [Arm Wrestling](Nintendo/Arm%20Wrestling)             | Working         | Working            |
 | Bomb Bee                  | Working         | Untested           |
 | Cutie Q                   | Working         | Untested           |
 | Donkey Kong               | Working         | Working            |
