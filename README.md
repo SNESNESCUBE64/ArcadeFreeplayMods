@@ -42,7 +42,7 @@ Games can have one of four statuses:
 | [Sky Skipper](Nintendo/Sky%20Skipper/)                               | Working         | Working            |
 | [Space Demon](Nintendo/Space%20Demon/)                               | Working         | Working            |
 | [Space Fever](Nintendo/Space%20Fever/)                               | Working         | Untested           |
-| [Space Fever HiSplitter](Nintendo/Space%20Fever%20HiSplitter/)       | Working         | Untested           |
+| [Space Fever HiSplitter](Nintendo/Space%20Fever%20HiSplitter/)       | Working         | Working            |
 | [Space Firebird (Nintendo)](Nintendo/Space%20Firebird%20(Nintendo)/) | Working         | Working            |
 | [Space Launcher](Nintendo/Space%20Launcher/)                         | Working         | Untested           |
 | [Super Punch-Out!!](Nintendo/Super%20Punchout/)                      | Working         | Working            |

@@ -6,8 +6,8 @@ This is a mod for original Nintendo Space Fever HiSplitter ROMs that adds free p
 | **ROM Set** | **MAME Working?** | **Machine Working?** |
 |-------------|:-----------------:|:--------------------:|
 | highsplt    |        Yes        |       Untested       |
-| highsplta   |        Yes        |       Untested       |
-| highspltb   |        Yes        |       Untested       |
+| highsplta   |        Yes        |       Working        |
+| highspltb   |        Yes        |       Working        |
 
 ### highsplt 
 | **Patched ROM Name** | **Size** | **CRC-32 Checksum** | **IC Location** |
