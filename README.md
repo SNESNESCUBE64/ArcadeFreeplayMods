@@ -23,10 +23,8 @@ Games can have one of four statuses:
 |:--------------------------------------------------------------------:|:---------------:|:------------------:|
 | [Bomb Bee](Namco/Bomb%20Bee/)                                        | Working         | Untested           |
 | [Cutie Q](Namco/Cutie%20Q/)                                          | Working         | Untested           |
-| [Pacman Plus](Namco/Pacman%20Plus/)                                  | Working         | Working¹           |
+| [Pacman Plus](Namco/Pacman%20Plus/)                                  | Working         | Working⁴           |
 | [Warp Warp](Namco/Warp%20Warp/)                                      | Working         | Untested           |
-
-1. Tested working using encrypted version.
 
 ### Nintendo
 |                              **Game Name**                           | **MAME Tested** | **Machine Tested** |
@@ -35,7 +33,7 @@ Games can have one of four statuses:
 | [Donkey Kong](Nintendo/Donkey%20Kong/)                               | Working         | Working            |
 | [Donkey Kong Jr](Nintendo/Donkey%20Kong%20Jr/)                       | Working         | Working            |
 | [Donkey Kong 3](Nintendo/Donkey%20Kong%203/)                         | Working         | Working            |
-| [Head On N](Nintendo/Head%20On%20N/)                                 | Working         | Working¹           |
+| [Head On N](Nintendo/Head%20On%20N/)                                 | Working         | Working³           |
 | [Heli Fire](Nintendo/Heli%20Fire/)                                   | Working         | Working            |
 | [Mario Bros.](Nintendo/Mario%20Bros/)                                | Working         | Working            |
 | [Popeye](Nintendo/Popeye/)                                           | Working         | Working²           |
@@ -49,9 +47,6 @@ Games can have one of four statuses:
 | [Space Launcher](Nintendo/Space%20Launcher/)                         | Working         | Untested           |
 | [Super Punch-Out!!](Nintendo/Super%20Punchout/)                      | Working         | Working            |
 
-1. I wrote 3 patches for Head On N: Free Play, Upright, and Upright Freeplay. The upright mods have not been checked in yet because of how involved they were. *However, the cocktail freeplay ROM is tested working.*
-2. Popeye was tested on real hardware on a board that did not come with a populated security chip. Some boards have this chip and the mod will likely not work with this.
-
 ### Sega
 |                              **Game Name**                           | **MAME Tested** | **Machine Tested** |
 |:--------------------------------------------------------------------:|:---------------:|:------------------:|
@@ -60,8 +55,6 @@ Games can have one of four statuses:
 | [Turbo (Unencrypted ROMs)](Sega/Turbo/)                              | Working         | Untested           |
 | [Zaxxon](Sega/Zaxxon/)                                               | Working         | Working            |
 
-1. Tested working on Nintendo Head On N hardware.
-
 ### Sun Electronics
 |                              **Game Name**                           | **MAME Tested** | **Machine Tested** |
 |:--------------------------------------------------------------------:|:---------------:|:------------------:|
@@ -69,6 +62,11 @@ Games can have one of four statuses:
 | [Stratovox](Sun%20Electronics/Stratovox/)                            | Working         | Working            |
 
 
+
+1. Tested working on Nintendo Head On N hardware.
+2. Popeye was tested on real hardware on a board that did not come with a populated security chip. Some boards have this chip and the mod will likely not work with this.
+3. I wrote 3 patches for Head On N: Free Play, Upright, and Upright Freeplay. The upright mods have not been checked in yet because of how involved they were. *However, the cocktail freeplay ROM is tested working.*
+4. Tested working using encrypted version.
 
 ## Known Bugs
 *None to currently report*
