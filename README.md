@@ -16,6 +16,7 @@ Games can have one of four statuses:
 ### Midway
 |                              **Game Name**                           | **MAME Tested** | **Machine Tested** |
 |:--------------------------------------------------------------------:|:---------------:|:------------------:|
+| [Sea Wolf](Midway/Sea%20Wolf/)                                       | In Progress     | Untested           |
 | [Space Encounters](Midway/Space%20Encounters/)                       | Working         | Working            |
 
 ### Namco
