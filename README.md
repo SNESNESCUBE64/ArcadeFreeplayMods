@@ -70,4 +70,5 @@ Games can have one of four statuses:
 4. Tested working using encrypted version.
 
 ## Known Bugs
-*None to currently report*
+### Sea Wolf
+06 July 2026: Self test no longer works. It does not impact gameplay in any way. This is due to it checking against known checksums that have not been updated.
