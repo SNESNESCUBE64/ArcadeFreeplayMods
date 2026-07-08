@@ -7,7 +7,7 @@ This is a mod to original Sea Wolf ROMs that adds free play to the game.
 |-------------|:-----------------:|:--------------------:|
 | seawolf     |        Yes        |       Untested       |
 | seawolfo    |        Yes        |       Untested       |
-| seawolfa    |        Yes        |       Untested       |
+| seawolfa    |        Yes        |       Working        |
 
 ### Sea Wolf Set 1 - seawolf
 |   **Patched ROM Name**   | **Size** | **CRC-32 Checksum** | **IC Location** |
