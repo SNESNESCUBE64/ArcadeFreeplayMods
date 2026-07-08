@@ -18,7 +18,7 @@ This is a mod to original Sea Wolf ROMs that adds free play to the game.
 ### seawolfa
 |   **Patched ROM Name**   | **Size** | **CRC-32 Checksum** | **IC Location** |
 |--------------------------|----------|---------------------|-----------------|
-| 9316b-2801_9316b-g-sw.g1 |    1k    |       60982168      |        G        |
+| 9316b-2801_9316b-g-sw.g1 |    2k    |       60982168      |        G        |
 
 ## Modification Documentation
 The modification is actually really simple. Sea Wolf attract mode will continue if there is a coin in. So the game just always needs to think that there is a coin. 
