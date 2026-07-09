@@ -8,6 +8,11 @@ Games can have one of four statuses:
 - Working: mod is complete and is working in the appropriate platform.
 - Untested: mod has not been tested on the appropriate platform, the mod is complete and tested is required.
 
+### Centuri
+|                              **Game Name**                           | **MAME Tested** | **Machine Tested** |
+|:--------------------------------------------------------------------:|:---------------:|:------------------:|
+| [Phoenix](Centuri/Phoenix/)                                          | Working         | Working            |
+
 ### Konami
 |                              **Game Name**                           | **MAME Tested** | **Machine Tested** |
 |:--------------------------------------------------------------------:|:---------------:|:------------------:|

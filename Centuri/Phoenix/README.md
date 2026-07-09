@@ -1,0 +1,32 @@
+# Phoenix Freeplay
+This is a freeplay mod for Amstar/Centuri Phoenix. So far only the Centuri sets are supported. There are an absurd amount of phoenix ROM sets, not all of them will be tested.
+
+## Patch information
+### Supported ROM Sets
+| **ROM Set** | **MAME Working?** | **Machine Working?** |
+|-------------|:-----------------:|:--------------------:|
+| phoenix     |        No         |         No           |
+| phoenixa    |        Yes        |         Yes          |
+| phoenixb    |        Yes        |         Yes          |
+
+
+### phoenixa
+| **Patched ROM Name** | **Size** | **CRC-32 Checksum** | **IC Location** |
+|----------------------|----------|---------------------|-----------------|
+| 1-ic45.1a            |    2k    |       27CAAE6D      |    IC45/1A      |
+| 4-ic48.4a            |    2k    |       AF143208      |    IC48/4A      |
+| h7-ic51.7a           |    2k    |       205B1646      |    IC51/7A      |
+
+### phoenixb
+| **Patched ROM Name** | **Size** | **CRC-32 Checksum** | **IC Location** |
+|----------------------|----------|---------------------|-----------------|
+| 1-ic45.1a            |    2k    |       27CAAE6D      |    IC45/1A      |
+| 4-ic48.4a            |    2k    |       AF143208      |    IC48/4A      |
+| h7-ic51.7a           |    2k    |       205B1646      |    IC51/7A      |
+
+
+## Modification Documentation
+To Do
+
+## Images
+![Freeplay](Images/PhoenixFP.png)
