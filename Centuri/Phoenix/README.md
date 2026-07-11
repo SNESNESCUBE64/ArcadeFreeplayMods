@@ -5,10 +5,15 @@ This is a freeplay mod for Amstar/Centuri Phoenix. So far only the Centuri sets 
 ### Supported ROM Sets
 | **ROM Set** | **MAME Working?** | **Machine Working?** |
 |-------------|:-----------------:|:--------------------:|
-| phoenix     |        No         |         No           |
+| phoenix     |        Yes        |         Untested     |
 | phoenixa    |        Yes        |         Yes          |
 | phoenixb    |        Yes        |         Yes          |
 
+### phoenix 
+| **Patched ROM Name** | **Size** | **CRC-32 Checksum** | **IC Location** |
+|----------------------|----------|---------------------|-----------------|
+| ic45                 |    2k    |       BF9EAA63      |    IC45/1A      |
+| ic48                 |    2k    |       22DE742C      |    IC48/4A      |
 
 ### phoenixa
 | **Patched ROM Name** | **Size** | **CRC-32 Checksum** | **IC Location** |
