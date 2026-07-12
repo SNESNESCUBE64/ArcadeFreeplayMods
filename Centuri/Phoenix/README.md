@@ -11,31 +11,31 @@ This is a freeplay mod for Amstar/Centuri Phoenix. There are an absurd amount of
 | phoenixj    |        Yes        |         Untested     |
 | phoenixt    |        Yes        |         Untested     |
 
-### phoenix 
+### Amstar Set 1 - phoenix 
 | **Patched ROM Name** | **Size** | **CRC-32 Checksum** | **IC Location** |
 |----------------------|----------|---------------------|-----------------|
 | ic45                 |    2k    |       BF9EAA63      |    IC45/1A      |
 | ic48                 |    2k    |       22DE742C      |    IC48/4A      |
 
-### phoenixa
+### Centuri Set 1 - phoenixa
 | **Patched ROM Name** | **Size** | **CRC-32 Checksum** | **IC Location** |
 |----------------------|----------|---------------------|-----------------|
 | 1-ic45.1a            |    2k    |       957CADB5      |    IC45/1A      |
 | 4-ic48.4a            |    2k    |       AF143208      |    IC48/4A      |
 
-### phoenixb
+### Centuri Set 2 - phoenixb
 | **Patched ROM Name** | **Size** | **CRC-32 Checksum** | **IC Location** |
 |----------------------|----------|---------------------|-----------------|
 | 1-ic45.1a            |    2k    |       957CADB5      |    IC45/1A      |
 | 4-ic48.4a            |    2k    |       AF143208      |    IC48/4A      |
 
-### phoenixj
+### Taito Set (Japan) - phoenixj
 | **Patched ROM Name** | **Size** | **CRC-32 Checksum** | **IC Location** |
 |----------------------|----------|---------------------|-----------------|
 | pn01.45              |    2k    |       A6353943      |    IC45/1A      |
 | pn04.48              |    2k    |       34C21F12      |    IC48/4A      |
 
-### phoenixt
+### Taito Set (World) - phoenixt
 | **Patched ROM Name** | **Size** | **CRC-32 Checksum** | **IC Location** |
 |----------------------|----------|---------------------|-----------------|
 | phoenix.45           |    2k    |       A6353943      |    IC45/1A      |
