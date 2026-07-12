@@ -13,6 +13,7 @@ This is a freeplay mod for Amstar/Centuri Phoenix. There are an absurd amount of
 | phoenixc2   |        Yes        |         Untested     |
 | phoenixc3   |        Yes        |         Untested     |
 | phoenixc4   |        Yes        |         Untested     |
+| phoenixha   |        Yes        |         Untested     |
 | phoenixj    |        Yes        |         Untested     |
 | phoenixt    |        Yes        |         Untested     |
 | phoenixs    |        Yes        |         Untested     |
@@ -64,6 +65,12 @@ This is a freeplay mod for Amstar/Centuri Phoenix. There are an absurd amount of
 |----------------------|----------|---------------------|-----------------|
 | phoenix.45           |    2k    |       A6353943      |    IC45/1A      |
 | phoenixd.48          |    2k    |       87D21D30      |    IC48/4A      |
+
+### Hellomat Automaten (German) - phoenixha
+| **Patched ROM Name** | **Size** | **CRC-32 Checksum** | **IC Location** |
+|----------------------|----------|---------------------|-----------------|
+| ic45                 |    2k    |       A6353943      |    IC45/1A      |
+| ic48                 |    2k    |       90B51914      |    IC48/4A      |
 
 ### Taito Set (Japan) - phoenixj
 | **Patched ROM Name** | **Size** | **CRC-32 Checksum** | **IC Location** |
