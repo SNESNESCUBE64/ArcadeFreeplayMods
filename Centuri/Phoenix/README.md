@@ -16,6 +16,7 @@ This is a freeplay mod for Amstar/Centuri Phoenix. There are an absurd amount of
 | phoenixc4   |        Yes        |         Untested     |
 | phoenixdal  |        Yes        |         Untested     |
 | phoenixha   |        Yes        |         Untested     |
+| phoenixgu   |        Yes        |         Untested     |
 | phoenixj    |        Yes        |         Untested     |
 | phoenixt    |        Yes        |         Untested     |
 | phoenixs    |        Yes        |         Untested     |
@@ -85,6 +86,12 @@ This is a freeplay mod for Amstar/Centuri Phoenix. There are an absurd amount of
 |----------------------|----------|---------------------|-----------------|
 | ic45                 |    2k    |       A6353943      |    IC45/1A      |
 | ic48                 |    2k    |       90B51914      |    IC48/4A      |
+
+### G. Universal Video - phoenixgu
+| **Patched ROM Name** | **Size** | **CRC-32 Checksum** | **IC Location** |
+|----------------------|----------|---------------------|-----------------|
+| ic45                 |    2k    |       A6353943      |    IC45/1A      |
+| ic48                 |    2k    |       9CE1D73F      |    IC48/4A      |
 
 ### Taito Set (Japan) - phoenixj
 | **Patched ROM Name** | **Size** | **CRC-32 Checksum** | **IC Location** |
