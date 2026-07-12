@@ -118,6 +118,12 @@ This is a freeplay mod for Amstar/Centuri Phoenix. There are an absurd amount of
 | ic45.1_a1            |    2k    |       A6353943      |    IC45/1A      |
 | ic48.4_a4            |    2k    |       5CCBE8AD      |    IC48/4A      |
 
+### Niemer Fenix (Spanish Bootleg) - fenixn
+| **Patched ROM Name** | **Size** | **CRC-32 Checksum** | **IC Location** |
+|----------------------|----------|---------------------|-----------------|
+| ic45.1_a1            |    2k    |       D743E2C7      |    IC45/1A      |
+| ic48.4_a4            |    2k    |       D1057E2D      |    IC48/4A      |
+
 
 ## Modification Documentation
 To Do
