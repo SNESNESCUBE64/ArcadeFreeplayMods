@@ -8,6 +8,10 @@ This is a freeplay mod for Amstar/Centuri Phoenix. There are an absurd amount of
 | phoenix     |        Yes        |         Untested     |
 | phoenixa    |        Yes        |         Yes          |
 | phoenixb    |        Yes        |         Yes          |
+| phoenixc    |        Yes        |         Untested     |
+| phoenixc2   |        Yes        |         Untested     |
+| phoenixc3   |        Yes        |         Untested     |
+| phoenixc4   |        Yes        |         Untested     |
 | phoenixj    |        Yes        |         Untested     |
 | phoenixt    |        Yes        |         Untested     |
 
@@ -28,6 +32,30 @@ This is a freeplay mod for Amstar/Centuri Phoenix. There are an absurd amount of
 |----------------------|----------|---------------------|-----------------|
 | 1-ic45.1a            |    2k    |       957CADB5      |    IC45/1A      |
 | 4-ic48.4a            |    2k    |       AF143208      |    IC48/4A      |
+
+### Iresca / G.G.I. Corporation - phoenixc
+| **Patched ROM Name** | **Size** | **CRC-32 Checksum** | **IC Location** |
+|----------------------|----------|---------------------|-----------------|
+| phoenix.45           |    2k    |       A6353943      |    IC45/1A      |
+| phoenixc.48          |    2k    |       B3635F2C      |    IC48/4A      |
+
+### G.G.I. Corporation Set 1 - phoenixc2
+| **Patched ROM Name** | **Size** | **CRC-32 Checksum** | **IC Location** |
+|----------------------|----------|---------------------|-----------------|
+| phoenix.45           |    2k    |       A6353943      |    IC45/1A      |
+| 01.ic48              |    2k    |       1B0DFBE1      |    IC48/4A      |
+
+### G.G.I. Corporation Set 2 - phoenixc3
+| **Patched ROM Name** | **Size** | **CRC-32 Checksum** | **IC Location** |
+|----------------------|----------|---------------------|-----------------|
+| phoenix.45           |    2k    |       A6353943      |    IC45/1A      |
+| 4.a4                 |    2k    |       88D2A6D4      |    IC48/4A      |
+
+### G.G.I. Corporation Set 3 - phoenixc4
+| **Patched ROM Name** | **Size** | **CRC-32 Checksum** | **IC Location** |
+|----------------------|----------|---------------------|-----------------|
+| phoenix.45           |    2k    |       A6353943      |    IC45/1A      |
+| phoenixd.48          |    2k    |       87D21D30      |    IC48/4A      |
 
 ### Taito Set (Japan) - phoenixj
 | **Patched ROM Name** | **Size** | **CRC-32 Checksum** | **IC Location** |
