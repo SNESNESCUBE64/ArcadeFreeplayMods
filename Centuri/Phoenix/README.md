@@ -6,6 +6,7 @@ This is a freeplay mod for Amstar/Centuri Phoenix. There are an absurd amount of
 | **ROM Set** | **MAME Working?** | **Machine Working?** |
 |-------------|:-----------------:|:--------------------:|
 | phoenix     |        Yes        |         Untested     |
+| phoenix2    |        Yes        |         Untested     |
 | phoenixa    |        Yes        |         Yes          |
 | phoenixb    |        Yes        |         Yes          |
 | phoenixc    |        Yes        |         Untested     |
@@ -21,6 +22,12 @@ This is a freeplay mod for Amstar/Centuri Phoenix. There are an absurd amount of
 |----------------------|----------|---------------------|-----------------|
 | ic45                 |    2k    |       BF9EAA63      |    IC45/1A      |
 | ic48                 |    2k    |       22DE742C      |    IC48/4A      |
+
+### Amstar Set 2 - phoenix 
+| **Patched ROM Name** | **Size** | **CRC-32 Checksum** | **IC Location** |
+|----------------------|----------|---------------------|-----------------|
+| ic45-pg1.1a          |    2k    |       A6353943      |    IC45/1A      |
+| ic48-pg4.4a          |    2k    |       22DE742C      |    IC48/4A      |
 
 ### Centuri Set 1 - phoenixa
 | **Patched ROM Name** | **Size** | **CRC-32 Checksum** | **IC Location** |
