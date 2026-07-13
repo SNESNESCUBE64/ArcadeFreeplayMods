@@ -52,6 +52,7 @@ Games can have one of four statuses:
 |                              **Game Name**                           | **MAME Tested** | **Machine Tested** |
 |:--------------------------------------------------------------------:|:---------------:|:------------------:|
 | [Phoenix](Phoenix/Phoenix/)                                          | Working         | Working            |
+| [Pleiads](Phoenix/Pleiads/)                                          | Working         | Untested           |
 
 ### Sega
 |                              **Game Name**                           | **MAME Tested** | **Machine Tested** |
