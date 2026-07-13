@@ -6,8 +6,8 @@ This is a freeplay mod for Pleiads.
 | **ROM Set** | **MAME Working?** | **Machine Working?** |
 |-------------|:-----------------:|:--------------------:|
 | pleiads     |        Yes        |         Untested     |
-| pleiadce    |        Yes        |         No           |
-| pleiadsi    |        Yes        |         No           |
+| pleiadce    |        Yes        |         Untested     |
+| pleiadsi    |        Yes        |         Untested     |
 | pleiadsia   |        No         |         No           |
 
 
