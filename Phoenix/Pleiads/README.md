@@ -6,7 +6,7 @@ This is a freeplay mod for Pleiads.
 | **ROM Set** | **MAME Working?** | **Machine Working?** |
 |-------------|:-----------------:|:--------------------:|
 | pleiads     |        Yes        |         Untested     |
-| pleiadce    |        No         |         No           |
+| pleiadce    |        Yes        |         No           |
 | pleiadsi    |        No         |         No           |
 | pleiadsia   |        No         |         No           |
 
@@ -16,6 +16,12 @@ This is a freeplay mod for Pleiads.
 |----------------------|----------|---------------------|-----------------|
 | ic47.r1              |    2k    |       337486B6      |                 |
 | ic48.bin             |    2k    |       C4D275E9      |                 |
+
+### Tehkan (Centuri License) - pleiads  
+| **Patched ROM Name** | **Size** | **CRC-32 Checksum** | **IC Location** |
+|----------------------|----------|---------------------|-----------------|
+| pleiades.47          |    2k    |       CB8B910F      |                 |
+| pleiades.50          |    2k    |       E2D24789      |                 |
 
 
 ## Modification Documentation
