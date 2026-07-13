@@ -7,7 +7,7 @@ This is a freeplay mod for Pleiads.
 |-------------|:-----------------:|:--------------------:|
 | pleiads     |        Yes        |         Untested     |
 | pleiadce    |        Yes        |         No           |
-| pleiadsi    |        No         |         No           |
+| pleiadsi    |        Yes        |         No           |
 | pleiadsia   |        No         |         No           |
 
 
