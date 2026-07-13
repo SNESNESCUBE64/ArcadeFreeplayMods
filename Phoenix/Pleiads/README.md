@@ -14,8 +14,8 @@ This is a freeplay mod for Pleiads.
 ### Amstar Set 1 - phoenix 
 | **Patched ROM Name** | **Size** | **CRC-32 Checksum** | **IC Location** |
 |----------------------|----------|---------------------|-----------------|
-| ic47.r1              |    2k    |       298E6287      |    IC45/1A      |
-| ic48.bin             |    2k    |       C4D275E9      |    IC48/4A      |
+| ic47.r1              |    2k    |       337486B6      |                 |
+| ic48.bin             |    2k    |       C4D275E9      |                 |
 
 
 ## Modification Documentation
