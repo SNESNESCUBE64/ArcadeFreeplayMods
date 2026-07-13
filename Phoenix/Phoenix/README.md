@@ -21,6 +21,7 @@ This is a freeplay mod for Amstar/Centuri Phoenix. There are an absurd amount of
 | phoenixj    |        Yes        |         Untested     |
 | phoenixt    |        Yes        |         Untested     |
 | phoenixs    |        Yes        |         Untested     |
+| fenixn      |        Yes        |         Untested     |
 
 ### Amstar Set 1 - phoenix 
 | **Patched ROM Name** | **Size** | **CRC-32 Checksum** | **IC Location** |

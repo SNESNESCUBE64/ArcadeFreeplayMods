@@ -8,11 +8,6 @@ Games can have one of four statuses:
 - Working: mod is complete and is working in the appropriate platform.
 - Untested: mod has not been tested on the appropriate platform, the mod is complete and tested is required.
 
-### Centuri
-|                              **Game Name**                           | **MAME Tested** | **Machine Tested** |
-|:--------------------------------------------------------------------:|:---------------:|:------------------:|
-| [Phoenix](Centuri/Phoenix/)                                          | Working         | Working            |
-
 ### Konami
 |                              **Game Name**                           | **MAME Tested** | **Machine Tested** |
 |:--------------------------------------------------------------------:|:---------------:|:------------------:|
@@ -52,6 +47,11 @@ Games can have one of four statuses:
 | [Space Firebird (Nintendo)](Nintendo/Space%20Firebird%20(Nintendo)/) | Working         | Working            |
 | [Space Launcher](Nintendo/Space%20Launcher/)                         | Working         | Untested           |
 | [Super Punch-Out!!](Nintendo/Super%20Punchout/)                      | Working         | Working            |
+
+### Phoenix
+|                              **Game Name**                           | **MAME Tested** | **Machine Tested** |
+|:--------------------------------------------------------------------:|:---------------:|:------------------:|
+| [Phoenix](Phoenix/Phoenix/)                                          | Working         | Working            |
 
 ### Sega
 |                              **Game Name**                           | **MAME Tested** | **Machine Tested** |
