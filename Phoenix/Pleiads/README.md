@@ -11,7 +11,7 @@ This is a freeplay mod for Pleiads.
 | pleiadsia   |        No         |         No           |
 
 
-### Amstar Set 1 - phoenix 
+### Tehkan - pleiads  
 | **Patched ROM Name** | **Size** | **CRC-32 Checksum** | **IC Location** |
 |----------------------|----------|---------------------|-----------------|
 | ic47.r1              |    2k    |       337486B6      |                 |
