@@ -6,7 +6,7 @@ This is a free play mod to original Turtles developed by Konami and released by 
 | **ROM Set** | **MAME Working?** | **Machine Working?** |
 |-------------|:-----------------:|:--------------------:|
 | turtles     |        Yes        |       Untested       |
-| turpin      |        No         |          No          |
+| turpin      |        Yes        |       Untested       |
 | 600         |        Yes        |       Untested       |
 
 ### Turtles (Stern License) - turtles.zip
@@ -14,6 +14,12 @@ This is a free play mod to original Turtles developed by Konami and released by 
 |----------------------|----------|---------------------|-----------------|
 | turt_vid.2c          |    4k    |       9EE3A97F      |       2C        |
 | turt_vid.2e          |    4k    |       782399B2      |       2E        |
+
+### Turpin (Sega License) - turpin.zip
+| **Patched ROM Name** | **Size** | **CRC-32 Checksum** | **IC Location** |
+|----------------------|----------|---------------------|-----------------|
+| m1                   |    4k    |       2B3B566E      |       2C        |
+| m2                   |    4k    |       FADC2895      |       2E        |
 
 ### 600 (Konami) - 600.zip
 | **Patched ROM Name** | **Size** | **CRC-32 Checksum** | **IC Location** |
