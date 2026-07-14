@@ -12,6 +12,7 @@ Games can have one of four statuses:
 |                              **Game Name**                           | **MAME Tested** | **Machine Tested** |
 |:--------------------------------------------------------------------:|:---------------:|:------------------:|
 | [Frogger](Konami/Frogger)                                            | Working         | Working            |
+| [Turtles](Konami/Turtles)                                            | Working         | Untested           |
 
 ### Midway
 |                              **Game Name**                           | **MAME Tested** | **Machine Tested** |
