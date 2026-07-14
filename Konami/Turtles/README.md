@@ -18,7 +18,7 @@ This is a free play mod to original Turtles developed by Konami and released by 
 ### Turpin (Sega License) - turpin.zip
 | **Patched ROM Name** | **Size** | **CRC-32 Checksum** | **IC Location** |
 |----------------------|----------|---------------------|-----------------|
-| m1                   |    4k    |       2B3B566E      |       2C        |
+| m1                   |    4k    |       A5744A09      |       2C        |
 | m2                   |    4k    |       FADC2895      |       2E        |
 
 ### 600 (Konami) - 600.zip
