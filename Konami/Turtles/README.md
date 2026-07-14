@@ -18,8 +18,8 @@ This is a free play mod to original Turtles developed by Konami and released by 
 ### 600 (Konami) - 600.zip
 | **Patched ROM Name** | **Size** | **CRC-32 Checksum** | **IC Location** |
 |----------------------|----------|---------------------|-----------------|
-| turt_vid.2c          |    4k    |       EFEF8F78      |       2C        |
-| turt_vid.2e          |    4k    |       0645AA8E      |       2E        |
+| 600_vid.2c           |    4k    |       EFEF8F78      |       2C        |
+| 600_vid.2e           |    4k    |       0645AA8E      |       2E        |
 
 
 ## Modification Documentation
