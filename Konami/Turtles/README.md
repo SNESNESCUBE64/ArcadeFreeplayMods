@@ -8,6 +8,7 @@ This is a free play mod to original Turtles developed by Konami and released by 
 | turtles     |        Yes        |       Untested       |
 | turpin      |        Yes        |       Untested       |
 | 600         |        Yes        |       Untested       |
+| turpins     |        Yes        |       Untested       |
 | turpinnv    |        Yes        |       Untested       |
 
 ### Turtles (Stern License) - turtles.zip
@@ -28,11 +29,18 @@ This is a free play mod to original Turtles developed by Konami and released by 
 | 600_vid.2c           |    4k    |       EFEF8F78      |       2C        |
 | 600_vid.2e           |    4k    |       0645AA8E      |       2E        |
 
+### Turpin  (Super Cobra hardware) - turpins.zip
+| **Patched ROM Name** | **Size** | **CRC-32 Checksum** | **IC Location** |
+|----------------------|----------|---------------------|-----------------|
+| t1.bin               |    4k    |       9350FF06      |                 |
+| t3.bin               |    4k    |       23D2517A      |                 |
+
+
 ### Turpin  (Novatronic) - turpinnv.zip
 | **Patched ROM Name** | **Size** | **CRC-32 Checksum** | **IC Location** |
 |----------------------|----------|---------------------|-----------------|
-| 2532.2c              |    4k    |       5F5C3BF9      |       2C        |
-| 2532.2f              |    4k    |       7B4809E9      |       2E        |
+| 2532.2c              |    4k    |       5F5C3BF9      |                 |
+| 2532.2f              |    4k    |       7B4809E9      |                 |
 
 
 ## Modification Documentation
