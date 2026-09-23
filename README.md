@@ -8,6 +8,11 @@ Games can have one of four statuses:
 - Working: mod is complete and is working in the appropriate platform.
 - Untested: mod has not been tested on the appropriate platform, the mod is complete and tested is required.
 
+### Century Electronics
+|                              **Game Name**                           | **MAME Tested** | **Machine Tested** |
+|:--------------------------------------------------------------------:|:---------------:|:------------------:|
+| [Hunchback](Century%20Electronics/Hunchback/)                        | Working         | Untested           |
+
 ### Konami
 |                              **Game Name**                           | **MAME Tested** | **Machine Tested** |
 |:--------------------------------------------------------------------:|:---------------:|:------------------:|
@@ -67,7 +72,7 @@ Games can have one of four statuses:
 |                              **Game Name**                           | **MAME Tested** | **Machine Tested** |
 |:--------------------------------------------------------------------:|:---------------:|:------------------:|
 | [Special Forces](Senko%20Industries/Special%20Forces/)               | Working         | Untested           |
-| [Special Forces II](Senko%20Industries/Special%20Forces%20II/)       | Working         | Working            |
+| [Special Forces II](Senko%20Industries/Special%20Forces%20II/)       | Working         | Untested           |
 
 ### Sun Electronics
 |                              **Game Name**                           | **MAME Tested** | **Machine Tested** |
