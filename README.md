@@ -63,6 +63,12 @@ Games can have one of four statuses:
 | [Turbo (Unencrypted ROMs)](Sega/Turbo/)                              | Working         | Untested           |
 | [Zaxxon](Sega/Zaxxon/)                                               | Working         | Working            |
 
+### Senko Industries
+|                              **Game Name**                           | **MAME Tested** | **Machine Tested** |
+|:--------------------------------------------------------------------:|:---------------:|:------------------:|
+| [Special Forces](Senko%20Industries/Special%20Forces/)               | Working         | Untested           |
+| [Special Forces II](Senko%20Industries/Special%20Forces%20II/)       | Working         | Working            |
+
 ### Sun Electronics
 |                              **Game Name**                           | **MAME Tested** | **Machine Tested** |
 |:--------------------------------------------------------------------:|:---------------:|:------------------:|
