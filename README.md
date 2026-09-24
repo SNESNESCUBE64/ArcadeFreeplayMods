@@ -61,6 +61,11 @@ Games can have one of four statuses:
 | [Phoenix](Phoenix/Phoenix/)                                          | Working         | Working            |
 | [Pleiads](Phoenix/Pleiads/)                                          | Working         | Untested           |
 
+### Seatongrove UK, Ltd.
+|                              **Game Name**                           | **MAME Tested** | **Machine Tested** |
+|:--------------------------------------------------------------------:|:---------------:|:------------------:|
+| [Herbie at the Olympics](Seatongrove/Herbie%20at%20the%20Olympics/)  | Working         | Untested           |
+
 ### Sega
 |                              **Game Name**                           | **MAME Tested** | **Machine Tested** |
 |:--------------------------------------------------------------------:|:---------------:|:------------------:|
