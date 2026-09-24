@@ -21,4 +21,4 @@ This is a freeplay with attract mod for Super Bike, a conversion kit for DK PCBs
 To Do
 
 ## Images
-![Freeplay](Images/HBFP_1.png)
+![Freeplay](Images/SBFP_1.png)
