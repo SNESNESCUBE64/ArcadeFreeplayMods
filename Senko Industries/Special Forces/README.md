@@ -8,7 +8,7 @@ This is a freeplay with attract mod for Special Forces: Kung Fu Commando, a conv
 | spclforc    |        Yes        |       Untested       |
 
 
-### kangaroo
+### spclforc
 | **Patched ROM Name** | **Size** | **CRC-32 Checksum** | **IC Location** |
 |----------------------|----------|---------------------|-----------------|
 | 27128.8f             |   16k    |       DE0397BC      |       8f        |

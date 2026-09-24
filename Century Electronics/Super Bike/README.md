@@ -8,7 +8,7 @@ This is a freeplay with attract mod for Super Bike, a conversion kit for DK PCBs
 | sbdk        |        Yes        |       Untested       |
 
 
-### kangaroo
+### sbdk
 | **Patched ROM Name** | **Size** | **CRC-32 Checksum** | **IC Location** |
 |----------------------|----------|---------------------|-----------------|
 | sb-dk.5a             |    4k    |       7F2EE3A5      |       5A        |

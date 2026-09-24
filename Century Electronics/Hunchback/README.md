@@ -8,7 +8,7 @@ This is a freeplay with attract mod for Hunchback, a conversion kit for DK PCBs.
 | hunchbdk    |        Yes        |       Untested       |
 
 
-### kangaroo
+### hunchbdk
 | **Patched ROM Name** | **Size** | **CRC-32 Checksum** | **IC Location** |
 |----------------------|----------|---------------------|-----------------|
 | hb.5a                |    4k    |       8F921638      |       5A        |
