@@ -1,4 +1,4 @@
-# Special Forces: Kung Fu Commando Freeplay
+# Hunchback Freeplay
 This is a freeplay with attract mod for Hunchback, a conversion kit for DK PCBs. These patches are meant to be used with LunarIPS or other similar patching utilities.
 
 ## Patch information
