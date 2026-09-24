@@ -12,6 +12,7 @@ Games can have one of four statuses:
 |                              **Game Name**                           | **MAME Tested** | **Machine Tested** |
 |:--------------------------------------------------------------------:|:---------------:|:------------------:|
 | [Hunchback](Century%20Electronics/Hunchback/)                        | Working         | Untested           |
+| [Super Bike](Century%20Electronics/Super%20Bike/)                    | Working         | Untested           |
 
 ### Konami
 |                              **Game Name**                           | **MAME Tested** | **Machine Tested** |
