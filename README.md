@@ -64,6 +64,7 @@ Games can have one of four statuses:
 ### Seatongrove UK, Ltd.
 |                              **Game Name**                                      | **MAME Tested** | **Machine Tested** |
 |:-------------------------------------------------------------------------------:|:---------------:|:------------------:|
+| [8 Ball Action](Seatongrove/8%20Ball%20Action/)                                 | Working         | Untested           |
 | [Herbie at the Olympics](Seatongrove/Herbie%20at%20the%20Olympics/)             | Working         | Untested           |
 | [Hero in the Castle of Doom](Seatongrove/Hero%20in%20the%20Castle%20of%20Doom/) | Working         | Untested           |
 
