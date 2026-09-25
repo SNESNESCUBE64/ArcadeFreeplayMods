@@ -78,7 +78,7 @@ Games can have one of four statuses:
 ### Senko Industries
 |                              **Game Name**                           | **MAME Tested** | **Machine Tested** |
 |:--------------------------------------------------------------------:|:---------------:|:------------------:|
-| [Special Forces](Senko%20Industries/Special%20Forces/)               | Working         | Untested           |
+| [Special Forces](Senko%20Industries/Special%20Forces/)               | Working         | Working            |
 | [Special Forces II](Senko%20Industries/Special%20Forces%20II/)       | Working         | Untested           |
 
 ### Sun Electronics

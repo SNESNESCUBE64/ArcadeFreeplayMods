@@ -5,7 +5,7 @@ This is a freeplay with attract mod for Special Forces: Kung Fu Commando, a conv
 ### Supported ROM Sets
 | **ROM Set** | **MAME Working?** | **Machine Working?** |
 |-------------|:-----------------:|:--------------------:|
-| spclforc    |        Yes        |       Untested       |
+| spclforc    |        Yes        |       Working        |
 
 
 ### spclforc
