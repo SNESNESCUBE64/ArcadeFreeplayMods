@@ -11,13 +11,20 @@ This is a freeplay with attract mod for Hunchback, a conversion kit for DK PCBs.
 ### hunchbdk
 | **Patched ROM Name** | **Size** | **CRC-32 Checksum** | **IC Location** |
 |----------------------|----------|---------------------|-----------------|
-| hb.5a                |    4k    |       8F921638      |       5A        |
-| hb.5b                |    4k    |       B75F6BC6      |       5B        |
-| hb.5e                |    4k    |       8248418E      |       5E        |
+| hb.5a                |    4k    |       2E272C5F      |       5A        |
+| hb.5b                |    4k    |       2C19F0AC      |       5B        |
+| hb.5e                |    4k    |       F568427E      |       5E        |
 
 
 ## Modification Documentation
-To Do
+### Noteworthy Locations in Memory
+$1D98 - Credit Count
+
+### Modifications
+The methodology for the 2650 DK Kit Mods is very straight forward:
+- Return instead of printing the credit digits
+- Replace any load of the credit count with an immediate load of $99
+- Replace "Credit" text with "Free Play"
 
 ## Images
 ![Freeplay](Images/HBFP_1.png)
