@@ -4,9 +4,19 @@ This is a mod to original Unprotected D revision of the Popeye ROMs that adds fr
 Note: This was tested on a Popeye PCB that did not have the security chip. This will likely not work on a board that contains the security chip.
 
 ## Patch information
-One patch file is provided for the *popeyeu* ROM set as found in MAME. It has been tested for this ROM set only and will likely not work on other revisions of Popeye. The patches are designed to be used with LunarIPS. 
+### Supported ROM Sets
+| **ROM Set** | **MAME Working?** | **Machine Working?** |
+|-------------|:-----------------:|:--------------------:|
+| popeye      |        Yes        |       Untested       |
+| popeyeu     |        Yes        |         Yes          |
 
 
+### popeye - Revision D (Protected/With ALU)
+| **Patched ROM Name** | **Size** | **CRC-32 Checksum** | **IC Location** |
+|----------------------|----------|---------------------|-----------------|
+| tpp2-c.7a            |    8k    |       17F79D84      |        7A       |
+
+### popeyeu - Revision D (Unprotected/Without ALU)
 | **Patched ROM Name** | **Size** | **CRC-32 Checksum** | **IC Location** |
 |----------------------|----------|---------------------|-----------------|
 | 7a                   |    8k    |       86D0162C      |        7A       |
