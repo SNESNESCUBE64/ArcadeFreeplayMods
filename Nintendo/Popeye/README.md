@@ -1,14 +1,13 @@
 # Popeye Freeplay
 This is a mod to original Unprotected D revision of the Popeye ROMs that adds free play with attract mode to the game. 
 
-Note: This was tested on a Popeye PCB that did not have the security chip. This will likely not work on a board that contains the security chip.
-
 ## Patch information
 ### Supported ROM Sets
 | **ROM Set** | **MAME Working?** | **Machine Working?** |
 |-------------|:-----------------:|:--------------------:|
 | popeye      |        Yes        |       Untested       |
 | popeyeu     |        Yes        |         Yes          |
+| popeyef     |        Yes        |       Untested       |
 
 
 ### popeye - Revision D (Protected/With ALU)
@@ -20,6 +19,11 @@ Note: This was tested on a Popeye PCB that did not have the security chip. This 
 | **Patched ROM Name** | **Size** | **CRC-32 Checksum** | **IC Location** |
 |----------------------|----------|---------------------|-----------------|
 | 7a                   |    8k    |       86D0162C      |        7A       |
+
+### popeyef - Revision F
+| **Patched ROM Name** | **Size** | **CRC-32 Checksum** | **IC Location** |
+|----------------------|----------|---------------------|-----------------|
+| tpp2-c_f.7a          |    8k    |       6074574A      |        7A       |
 
 ## Modification Documentation
 This is not a 100% complete documentation on what was done. A couple minor changes to call these routines are in the rom. This is more to provide source for the routines that were written for this mod.
