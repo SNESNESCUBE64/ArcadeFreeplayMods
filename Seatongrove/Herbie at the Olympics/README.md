@@ -11,10 +11,7 @@ This is a freeplay with attract mod for Herbie at the Olympics, a conversion kit
 ### herbiedk
 | **Patched ROM Name** | **Size** | **CRC-32 Checksum** | **IC Location** |
 |----------------------|----------|---------------------|-----------------|
-| 5k.cpu               |    4k    |       B1DCDE43      |      5K/5A      |
-| 5h.cpu               |    4k    |       3AA0DC49      |      5H/5B      |
-| 5g.cpu               |    4k    |       9673648E      |      5G/5C      |
-| 5f.cpu               |    4k    |       3E296CFB      |      5F/5E      |
+| 5g.cpu               |    4k    |       97DFB8E2      |      5G/5C      |
 
 
 ## Modification Documentation
@@ -24,8 +21,7 @@ $1E50 - Credit Count
 
 ### Modifications
 The methodology for the 2650 DK Kit Mods is very straight forward:
-- Return instead of printing the credit digits
-- Replace any load of the credit count with an immediate load of $99
+- Instead of printing credit count, load 40 credits into the credit count variable
 - Replace "Credit" text with "Free Play"
 
 ## Images
