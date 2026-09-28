@@ -12,20 +12,22 @@ This is a freeplay with attract mod for 8 Ball Action, a conversion kit for DK P
 ### 8ballact
 | **Patched ROM Name** | **Size** | **CRC-32 Checksum** | **IC Location** |
 |----------------------|----------|---------------------|-----------------|
-| 8b-dk.5a             |    4k    |       54ADF9F4      |      5K/5A      |
-| 8b-dk.5b             |    4k    |       DDD5CD3E      |      5H/5B      |
-| 8b-dk.5c             |    4k    |       E190C1A2      |      5G/5C      |
-| 8b-dk.5e             |    4k    |       5C1C5F21      |      5F/5E      |
+| 8b-dk.5c             |    4k    |       CF25B46E      |      5G/5C      |
 
 ### 8ballact2
 | **Patched ROM Name** | **Size** | **CRC-32 Checksum** | **IC Location** |
 |----------------------|----------|---------------------|-----------------|
-| 8b-jr.5b             |    8k    |       BB85A999      |       5B        |
-| 8b-jr.5c             |    8k    |       06E3FCC9      |       5C        |
+| 8b-jr.5c             |    8k    |       E34409F5      |       5C        |
 
 
 ## Modification Documentation
-To Do
+### Noteworthy Locations in Memory
+$1D8B - Credit Count
+
+### Modifications
+The methodology for the 2650 DK Kit Mods is very straight forward:
+- Instead of printing credit count, load 40 credits into the credit count variable
+- Replace "Credit" text with "Free Play"
 
 ## Images
 ![Freeplay](Images/8BFP.png)
