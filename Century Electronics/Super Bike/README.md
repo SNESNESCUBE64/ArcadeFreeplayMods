@@ -11,14 +11,17 @@ This is a freeplay with attract mod for Super Bike, a conversion kit for DK PCBs
 ### sbdk
 | **Patched ROM Name** | **Size** | **CRC-32 Checksum** | **IC Location** |
 |----------------------|----------|---------------------|-----------------|
-| sb-dk.5a             |    4k    |       7F2EE3A5      |       5A        |
-| sb-dk.as             |    4k    |       34F9961F      |       5B        |
-| sb-dk.ay             |    4k    |       254B98EE      |       5C        |
-| sb-dk.ap             |    4k    |       2C891E33      |       5E        |
+| sb-dk.ay             |    4k    |       965D4E59      |       5C        |
+| sb-dk.ap             |    4k    |       EDA649EB      |       5E        |
 
 
 ## Modification Documentation
-To Do
+$1D9F - Credit Count
+
+### Modifications
+The methodology for the 2650 DK Kit Mods is very straight forward:
+- Instead of printing credit count, load 40 credits into the credit count variable
+- Replace "Credit" text with "Free Play"
 
 ## Images
 ![Freeplay](Images/SBFP_1.png)
