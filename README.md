@@ -31,7 +31,7 @@ Games can have one of four statuses:
 |:--------------------------------------------------------------------:|:---------------:|:------------------:|
 | [Bomb Bee](Namco/Bomb%20Bee/)                                        | Working         | Untested           |
 | [Cutie Q](Namco/Cutie%20Q/)                                          | Working         | Untested           |
-| [Pacman Plus](Namco/Pacman%20Plus/)                                  | Working         | Working⁴           |
+| [Pacman Plus](Namco/Pacman%20Plus/)                                  | Working         | Working³           |
 | [Warp Warp](Namco/Warp%20Warp/)                                      | Working         | Untested           |
 
 ### Nintendo
@@ -41,10 +41,10 @@ Games can have one of four statuses:
 | [Donkey Kong](Nintendo/Donkey%20Kong/)                               | Working         | Working            |
 | [Donkey Kong Jr](Nintendo/Donkey%20Kong%20Jr/)                       | Working         | Working            |
 | [Donkey Kong 3](Nintendo/Donkey%20Kong%203/)                         | Working         | Working            |
-| [Head On N](Nintendo/Head%20On%20N/)                                 | Working         | Working³           |
+| [Head On N](Nintendo/Head%20On%20N/)                                 | Working         | Working²           |
 | [Heli Fire](Nintendo/Heli%20Fire/)                                   | Working         | Working            |
 | [Mario Bros.](Nintendo/Mario%20Bros/)                                | Working         | Working            |
-| [Popeye](Nintendo/Popeye/)                                           | Working         | Working²           |
+| [Popeye](Nintendo/Popeye/)                                           | Working         | Working            |
 | [Punch-Out!!](Nintendo/Punchout/)                                    | Working         | Working            |
 | [Radar Scope](Nintendo/Radar%20Scope/)                               | Working         | Working            |
 | [Sky Skipper](Nintendo/Sky%20Skipper/)                               | Working         | Working            |
@@ -91,9 +91,8 @@ Games can have one of four statuses:
 
 
 1. Tested working on Nintendo Head On N hardware.
-2. Popeye was tested on real hardware on a board that did not come with a populated security chip. Some boards have this chip and the mod will likely not work with this.
-3. I wrote 3 patches for Head On N: Free Play, Upright, and Upright Freeplay. The upright mods have not been checked in yet because of how involved they were. *However, the cocktail freeplay ROM is tested working.*
-4. Tested working using encrypted version.
+2. I wrote 3 patches for Head On N: Free Play, Upright, and Upright Freeplay. The upright mods have not been checked in yet because of how involved they were. *However, the cocktail freeplay ROM is tested working.*
+3. Tested working using encrypted version.
 
 ## Known Bugs
 ### Sea Wolf

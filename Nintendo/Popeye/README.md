@@ -5,7 +5,7 @@ This is a mod to original Unprotected D revision of the Popeye ROMs that adds fr
 ### Supported ROM Sets
 | **ROM Set** | **MAME Working?** | **Machine Working?** |
 |-------------|:-----------------:|:--------------------:|
-| popeye      |        Yes        |       Untested       |
+| popeye      |        Yes        |         Yes          |
 | popeyeu     |        Yes        |         Yes          |
 | popeyef     |        Yes        |       Untested       |
 
