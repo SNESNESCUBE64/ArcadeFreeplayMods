@@ -6,6 +6,8 @@ This is a freeplay with attract mod for Super Bike, a conversion kit for DK, Gal
 | **ROM Set** | **MAME Working?** | **Machine Working?** |
 |-------------|:-----------------:|:--------------------:|
 | sbdk        |        Yes        |       Untested       |
+| superbik    |        Yes        |       Untested       |
+| superbikg   |        Yes        |       Untested       |
 
 
 ### sbdk
