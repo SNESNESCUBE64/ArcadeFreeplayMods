@@ -1,5 +1,5 @@
 # Super Bike Freeplay
-This is a freeplay with attract mod for Super Bike, a conversion kit for DK PCBs. These patches are meant to be used with LunarIPS or other similar patching utilities.
+This is a freeplay with attract mod for Super Bike, a conversion kit for DK PCBs and CVS kit. These patches are meant to be used with LunarIPS or other similar patching utilities.
 
 ## Patch information
 ### Supported ROM Sets
@@ -14,9 +14,16 @@ This is a freeplay with attract mod for Super Bike, a conversion kit for DK PCBs
 | sb-dk.ay             |    4k    |       965D4E59      |       5C        |
 | sb-dk.ap             |    4k    |       EDA649EB      |       5E        |
 
+### superbik
+| **Patched ROM Name** | **Size** | **CRC-32 Checksum** | **IC Location** |
+|----------------------|----------|---------------------|-----------------|
+| sb-gp1.bin           |    4k    |       3EFB0E98      |      ROM1       |
+| sb-gp3.bin           |    4k    |       D435B0CF      |      ROM3       |
+
 
 ## Modification Documentation
-$1D9F - Credit Count
+$1D9F - Credit Count (DK Kit)
+$1E6A - Credit Count (CVS Kit)
 
 ### Modifications
 The methodology for the 2650 DK Kit Mods is very straight forward:
@@ -25,3 +32,4 @@ The methodology for the 2650 DK Kit Mods is very straight forward:
 
 ## Images
 ![Freeplay](Images/SBFP_1.png)
+![Freeplay](Images/SBFP_2.png)
